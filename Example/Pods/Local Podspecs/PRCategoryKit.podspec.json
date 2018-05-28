@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "2",
+  "version": "3",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "2"
+    "tag": "3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "PRCategoryKit/Classes/*.{h,m}",
   "public_header_files": "PRCategoryKit/Classes/*.h",
+  "frameworks": "UIKit",
   "subspecs": [
     {
       "name": "Category",

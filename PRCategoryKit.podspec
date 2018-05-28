@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '2'
+  s.version          = '3'
   s.summary          = 'A short description of PRCategoryKit.'
 
 # This description is used to generate tags and improve search results.
@@ -61,4 +61,5 @@ end
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+s.frameworks =  "UIKit"
 end
