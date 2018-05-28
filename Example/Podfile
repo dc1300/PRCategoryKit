@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PRCategoryKit_Example' do
+  pod 'PRCategoryKit', :path => '../'
+
+  target 'PRCategoryKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
