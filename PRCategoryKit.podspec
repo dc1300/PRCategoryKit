@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '0.1.0'
+  s.version          = '1'
   s.summary          = 'A short description of PRCategoryKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,30 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'PRCategoryKit/Classes/**/*'
-  
+#  s.source_files = 'PRCategoryKit/Classes/**/*'
+s.source_files = "PRCategoryKit/Classes/*.{h,m}"
+s.public_header_files = "PRCategoryKit/Classes/*.h"
+
+s.subspec 'Category' do |category|
+category.source_files = 'PRCategoryKit/Classes/Category/*'
+category.public_header_files = "PRCategoryKit/Classes/Category/*.h"
+end
+
+s.subspec 'SSKeychain' do |sskeychain|
+sskeychain.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
+sskeychain.public_header_files = "PRCategoryKit/Classes/SSKeychain/*.h"
+end
+
+s.subspec 'Tools' do |tools|
+tools.source_files = 'PRCategoryKit/Classes/Tools/*'
+tools.public_header_files = "PRCategoryKit/Classes/Tools/*.h"
+end
+
+s.subspec 'WXWTools' do |wxwtools|
+wxwtools.source_files = 'PRCategoryKit/Classes/WXWTools/*'
+wxwtools.public_header_files = "PRCategoryKit/Classes/WXWTools/*.h"
+end
+
   # s.resource_bundles = {
   #   'PRCategoryKit' => ['PRCategoryKit/Assets/*.png']
   # }

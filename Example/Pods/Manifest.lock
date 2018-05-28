@@ -1,0 +1,24 @@
+PODS:
+  - PRCategoryKit (0.1.0):
+    - PRCategoryKit/Category (= 0.1.0)
+    - PRCategoryKit/SSKeychain (= 0.1.0)
+    - PRCategoryKit/Tools (= 0.1.0)
+    - PRCategoryKit/WXWTools (= 0.1.0)
+  - PRCategoryKit/Category (0.1.0)
+  - PRCategoryKit/SSKeychain (0.1.0)
+  - PRCategoryKit/Tools (0.1.0)
+  - PRCategoryKit/WXWTools (0.1.0)
+
+DEPENDENCIES:
+  - PRCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  PRCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PRCategoryKit: 5e2aefd71895cb607abca2c8c907aa83bd9a3f64
+
+PODFILE CHECKSUM: b598c9babae77cadb8f08af9a4f9c2000cc49315
+
+COCOAPODS: 1.4.0.beta.1

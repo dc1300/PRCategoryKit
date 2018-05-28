@@ -1,0 +1,6 @@
+framework module Pods_PRCategoryKit_Example {
+  umbrella header "Pods-PRCategoryKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PRCategoryKit {
+  umbrella header "PRCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "PRCategoryKit",
+  "version": "0.1.0",
+  "summary": "A short description of PRCategoryKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dc1300/PRCategoryKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dc1300": "dravendc@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dc1300/PRCategoryKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PRCategoryKit/Classes/*.{h,m}",
+  "public_header_files": "PRCategoryKit/Classes/*.h",
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "PRCategoryKit/Classes/Category/**/*"
+    },
+    {
+      "name": "SSKeychain",
+      "source_files": "PRCategoryKit/Classes/SSKeychain/**/*"
+    },
+    {
+      "name": "Tools",
+      "source_files": "PRCategoryKit/Classes/Tools/**/*"
+    },
+    {
+      "name": "WXWTools",
+      "source_files": "PRCategoryKit/Classes/WXWTools/**/*"
+    }
+  ]
+}
