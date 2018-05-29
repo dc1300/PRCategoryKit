@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '16'
+  s.version          = '17'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -15,14 +15,10 @@ TODO: Add long description of the pod here.
 
 s.source_files = 'PRCategoryKit/Classes/*.{h,m}'
 s.public_header_files = 'PRCategoryKit/Classes/*.h'
-s.frameworks =  "UIKit"
 
 s.subspec 'Category' do |category|
 category.source_files = 'PRCategoryKit/Classes/Category/*'
-#category.public_header_files = 'objc/runtime.h','sys/sysctl.h','sys/types.h','CommonCrypto/CommonDigest.h','sys/param.h','sys/mount.h'
-#category.frameworks = "CommonCrypto","Foundation","objc","QuartzCore","UIKit","CoreText","sys"
 category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
-#,"CommonCrypto","objc","sys"
 end
 
 s.subspec 'SSKeychain' do |sskeychain|
