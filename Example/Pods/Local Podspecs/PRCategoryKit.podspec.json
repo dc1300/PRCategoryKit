@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "17",
+  "version": "18",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "17"
+    "tag": "18"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,10 @@
         "Foundation",
         "QuartzCore",
         "CoreText"
-      ]
+      ],
+      "xcconfig": {
+        "FRAMEWORK_SEARCH_PATHS": "$(PODS_ROOT)/Category"
+      }
     },
     {
       "name": "SSKeychain",
