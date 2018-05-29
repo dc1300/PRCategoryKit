@@ -8,7 +8,7 @@
 
 #import "NSString+Check.h"
 #import "Header.h"
-
+#import "UIFont+PFVCommon.h"
 @implementation NSString(Check)
 
 - (BOOL)checkPhoneNumInput{
