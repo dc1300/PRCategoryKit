@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "9",
+  "version": "12",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "9"
+    "tag": "12"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,10 +29,7 @@
         "UIKit",
         "Foundation",
         "QuartzCore",
-        "CoreText",
-        "CommonCrypto",
-        "objc",
-        "sys"
+        "CoreText"
       ]
     },
     {
