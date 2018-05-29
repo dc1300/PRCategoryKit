@@ -13,6 +13,7 @@
 #import "Header.h"
 #import "CALayer+LayerColor.h"
 #import "NSArray+Sort.h"
+#import "NSAttributedString+Extensions.h"
 #import "NSCalendar+PRCalender.h"
 #import "NSDate+Extensions.h"
 #import "NSDate+Helper.h"
