@@ -1,12 +1,12 @@
 PODS:
   - Category (0.0.3)
-  - PRCategoryKit (28):
-    - PRCategoryKit/Category (= 28)
-    - PRCategoryKit/SSKeychain (= 28)
-    - PRCategoryKit/Tool (= 28)
-  - PRCategoryKit/Category (28)
-  - PRCategoryKit/SSKeychain (28)
-  - PRCategoryKit/Tool (28):
+  - PRCategoryKit (29):
+    - PRCategoryKit/Category (= 29)
+    - PRCategoryKit/SSKeychain (= 29)
+    - PRCategoryKit/Tool (= 29)
+  - PRCategoryKit/Category (29)
+  - PRCategoryKit/SSKeychain (29)
+  - PRCategoryKit/Tool (29):
     - Category
 
 DEPENDENCIES:
@@ -18,7 +18,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Category: b30ab3bc89d2823702114bedd805846925d81e3c
-  PRCategoryKit: f2c19e8ad410029492a283e476330e94f5d0235e
+  PRCategoryKit: 6b36f61b404f6d56282bece933090b11b2455bbb
 
 PODFILE CHECKSUM: b598c9babae77cadb8f08af9a4f9c2000cc49315
 
