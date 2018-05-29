@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '26'
+  s.version          = '27'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -20,8 +20,6 @@ s.public_header_files = 'PRCategoryKit/Classes/*.h'
 s.subspec 'Category' do |category|
 category.source_files = 'PRCategoryKit/Classes/Category/**/*'
 category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
-#category.public_header_files = 'PRCategoryKit/Classes/*.h'
-#category.xcconfig = { "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/Category"}
 end
 
 s.subspec 'SSKeychain' do |sskeychain|
