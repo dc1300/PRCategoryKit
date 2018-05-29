@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "5",
+  "version": "6",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "5"
+    "tag": "6"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,13 +26,11 @@
       "name": "Category",
       "source_files": "PRCategoryKit/Classes/Category/*",
       "frameworks": [
-        "CommonCrypto",
-        "Foundation",
-        "objc",
-        "QuartzCore",
         "UIKit",
-        "CoreText",
-        "sys"
+        "Foundation",
+        "CommonCrypto",
+        "QuartzCore",
+        "CoreText"
       ]
     },
     {
@@ -43,14 +41,17 @@
     {
       "name": "Tool",
       "source_files": "PRCategoryKit/Classes/Tool/*",
+      "dependencies": {
+        "Category": [
+
+        ]
+      },
       "frameworks": [
-        "CommonCrypto",
         "UIKit",
-        "QuartzCore",
-        "sys",
-        "AVFoundation",
+        "Foundation",
         "ImageIO",
-        "Foundation"
+        "AVFoundation",
+        "QuartzCore"
       ]
     }
   ]
