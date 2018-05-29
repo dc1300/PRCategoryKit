@@ -15,7 +15,6 @@
 #define kAppKey         @"4235357454"
 #define kRedirectURI    @"http://www.sina.com"
 #define KWEBANKID @"W2864437"
-//#import "PFPermissionsModel.h"
 
 #define Format(string) [NSString stringWithFormat:@"%@",string]
 
@@ -193,7 +192,9 @@ static inline BOOL IsEmpty(id thing) {
         && [(NSArray *)thing count] == 0);
 }
 
-
+#import "UIFont+PFVCommon.h"
+#import "Utils.h"
+#import "UIColor+HexCode.h"
 
 #define  adjustsScrollViewInsets_NO(scrollView,vc)\
 do { \

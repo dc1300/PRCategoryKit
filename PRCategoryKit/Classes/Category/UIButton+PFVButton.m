@@ -11,6 +11,7 @@
 #import "Header.h"
 #import "UIFont+PFVCommon.h"
 #import "Utils.h"
+
 NSString const *badgeKey                 = @"badgeKey";
 
 NSString const *badgeBGColorKey          = @"badgeBGColorKey";

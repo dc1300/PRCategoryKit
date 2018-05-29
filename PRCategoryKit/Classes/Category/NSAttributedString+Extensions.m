@@ -7,16 +7,11 @@
 //
 
 #import "NSAttributedString+Extensions.h"
+#import "Header.h"
 
 #define defaultColor [UIColor whiteColor]
 #define defaultSize  14
-static inline BOOL IsEmpty(id thing) {
-    return thing == nil || [thing isEqual:[NSNull null]]
-    || ([thing respondsToSelector:@selector(length)]
-        && [(NSData *)thing length] == 0)
-    || ([thing respondsToSelector:@selector(count)]
-        && [(NSArray *)thing count] == 0);
-}
+
 @implementation NSAttributedString (Extensions)
 
 + (NSMutableAttributedString *)attributedStringFromTextArray:(NSArray *)textArray colorArray:(NSArray <UIColor *>*)colorArray sizeArray:(NSArray *)sizeArray{
