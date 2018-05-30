@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "70",
+  "version": "71",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "70"
+    "tag": "71"
   },
   "platforms": {
     "ios": "8.0"
@@ -62,6 +62,61 @@
         "ImageIO",
         "AVFoundation",
         "QuartzCore"
+      ],
+      "subspecs": [
+        {
+          "name": "Appliance",
+          "dependencies": {
+            "PRCategoryKit/Category": [
+
+            ]
+          },
+          "source_files": "PRCategoryKit/Classes/Tool/Appliance/**/*",
+          "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/**/*.h",
+          "frameworks": [
+            "UIKit",
+            "Foundation",
+            "ImageIO",
+            "AVFoundation",
+            "QuartzCore"
+          ],
+          "subspecs": [
+            {
+              "name": "NoticeCameraCategory",
+              "dependencies": {
+                "PRCategoryKit/Category": [
+
+                ]
+              },
+              "source_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*",
+              "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.h",
+              "frameworks": [
+                "UIKit",
+                "Foundation",
+                "ImageIO",
+                "AVFoundation",
+                "QuartzCore"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "View",
+          "dependencies": {
+            "PRCategoryKit/Category": [
+
+            ]
+          },
+          "source_files": "PRCategoryKit/Classes/Tool/View/**/*",
+          "public_header_files": "PRCategoryKit/Classes/Tool/View/**/*.h",
+          "frameworks": [
+            "UIKit",
+            "Foundation",
+            "ImageIO",
+            "AVFoundation",
+            "QuartzCore"
+          ]
+        }
       ]
     }
   ]
