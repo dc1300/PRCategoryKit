@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '54'
+  s.version          = '55'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
     s.frameworks = "UIKit","Foundation"
 
 s.subspec 'Category' do |category|
-category.source_files = 'PRCategoryKit/Classes/Category/*.{h,m}','PRCategoryKit/Classes/*.h'
+    category.source_files = 'PRCategoryKit/Classes/Category/*.{h,m}','PRCategoryKit/Classes/*.h'
     category.public_header_files = "PRCategoryKit/Classes/Category/*.h","PRCategoryKit/Classes/Header.h"
     category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
 end
@@ -26,6 +26,13 @@ end
 s.subspec 'SSKeychain' do |sskeychain|
     sskeychain.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
     sskeychain.frameworks = "Security"
+end
+
+s.subspec 'Tool' do |tool|
+tool.source_files = 'PRCategoryKit/Classes/Tool/**/*.{h,m}','PRCategoryKit/Classes/*.h'
+    tool.dependency 'PRCategoryKit/Category'
+    tool.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
+    tool.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
 end
 
 
