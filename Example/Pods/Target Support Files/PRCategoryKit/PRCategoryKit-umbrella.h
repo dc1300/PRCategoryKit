@@ -46,7 +46,6 @@
 #import "UIView+PFVViewUtils.h"
 #import "UIViewController+Utils.h"
 #import "Utils.h"
-#import "Header.h"
 #import "SSKeychain.h"
 #import "EmojiDelegate.h"
 #import "LCDStringContainsEmoji.h"
