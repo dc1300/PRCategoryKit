@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "59",
+  "version": "60",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "59"
+    "tag": "60"
   },
   "platforms": {
     "ios": "8.0"
@@ -30,7 +30,7 @@
   "subspecs": [
     {
       "name": "Category",
-      "source_files": "PRCategoryKit/Classes/Category/**/*",
+      "source_files": "PRCategoryKit/Classes/Category/*",
       "public_header_files": [
         "PRCategoryKit/Classes/Category/*.h",
         "PRCategoryKit/Classes/Header.h"
@@ -49,7 +49,7 @@
     },
     {
       "name": "Tool",
-      "source_files": "PRCategoryKit/Classes/Tool/**/*.{h,m}",
+      "source_files": "PRCategoryKit/Classes/Tool/**/*",
       "dependencies": {
         "PRCategoryKit/Category": [
 
