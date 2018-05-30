@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "CALayer+LayerColor.h"
 #import "Header.h"
+#import "CALayer+LayerColor.h"
 #import "NSArray+Sort.h"
 #import "NSAttributedString+Extensions.h"
 #import "NSCalendar+PRCalender.h"
@@ -46,8 +46,6 @@
 #import "UIView+PFVViewUtils.h"
 #import "UIViewController+Utils.h"
 #import "Utils.h"
-#import "SSKeychain.h"
-#import "Header.h"
 #import "SSKeychain.h"
 
 FOUNDATION_EXPORT double PRCategoryKitVersionNumber;
