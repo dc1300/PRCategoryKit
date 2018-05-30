@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '53'
+  s.version          = '54'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -14,11 +14,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
     s.source_files = "PRCategoryKit/Classes/**/*","PRCategoryKit/Classes/*.h"
-    s.public_header_files = "PRCategoryKit/Classes/Header.h","PRCategoryKit/Classes/*.h"
+    s.public_header_files = "PRCategoryKit/Classes/*.h"
     s.frameworks = "UIKit","Foundation"
 
 s.subspec 'Category' do |category|
-    category.source_files = 'PRCategoryKit/Classes/Category/*'
+category.source_files = 'PRCategoryKit/Classes/Category/*.{h,m}','PRCategoryKit/Classes/*.h'
     category.public_header_files = "PRCategoryKit/Classes/Category/*.h","PRCategoryKit/Classes/Header.h"
     category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
 end
