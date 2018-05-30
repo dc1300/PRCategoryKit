@@ -1,9 +1,9 @@
 PODS:
-  - PRCategoryKit (51):
-    - PRCategoryKit/Category (= 51)
-    - PRCategoryKit/SSKeychain (= 51)
-  - PRCategoryKit/Category (51)
-  - PRCategoryKit/SSKeychain (51)
+  - PRCategoryKit (52):
+    - PRCategoryKit/Category (= 52)
+    - PRCategoryKit/SSKeychain (= 52)
+  - PRCategoryKit/Category (52)
+  - PRCategoryKit/SSKeychain (52)
 
 DEPENDENCIES:
   - PRCategoryKit (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PRCategoryKit: c6d1cdd94fecea6703a25f3449c8aae637fdb896
+  PRCategoryKit: 4f55d45591e22a41f21e8675ee830e07a1acf6bf
 
 PODFILE CHECKSUM: b598c9babae77cadb8f08af9a4f9c2000cc49315
 
