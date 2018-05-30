@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '50'
+  s.version          = '51'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -18,7 +18,7 @@ TODO: Add long description of the pod here.
     s.frameworks = "UIKit","Foundation"
 
 s.subspec 'Category' do |category|
-    category.source_files = 'PRCategoryKit/Classes/Category/*',"PRCategoryKit/Classes/Header.h"
+    category.source_files = 'PRCategoryKit/Classes/Category/*'
     category.public_header_files = "PRCategoryKit/Classes/Category/*.h","PRCategoryKit/Classes/Header.h"
 
 #category.xcconfig = {"HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto" "$(SDKROOT)/usr/include/objc"  "$(SDKROOT)/usr/include/sys"}
