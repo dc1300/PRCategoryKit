@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "72",
+  "version": "73",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "72"
+    "tag": "73"
   },
   "platforms": {
     "ios": "8.0"
@@ -54,8 +54,8 @@
 
         ]
       },
-      "source_files": "PRCategoryKit/Classes/Tool/**/*",
-      "public_header_files": "PRCategoryKit/Classes/Tool/**/*.h",
+      "source_files": "PRCategoryKit/Classes/Tool/*.{h,m}",
+      "public_header_files": "PRCategoryKit/Classes/Tool/*.h",
       "frameworks": [
         "UIKit",
         "Foundation",
@@ -74,8 +74,8 @@
 
             ]
           },
-          "source_files": "PRCategoryKit/Classes/Tool/Appliance/**/*",
-          "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/**/*.h",
+          "source_files": "PRCategoryKit/Classes/Tool/Appliance/*.{h,m}",
+          "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/*.h",
           "frameworks": [
             "UIKit",
             "Foundation",
@@ -91,7 +91,7 @@
 
                 ]
               },
-              "source_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*",
+              "source_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.{h,m}",
               "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.h",
               "frameworks": [
                 "UIKit",
@@ -110,8 +110,8 @@
 
             ]
           },
-          "source_files": "PRCategoryKit/Classes/Tool/View/**/*",
-          "public_header_files": "PRCategoryKit/Classes/Tool/View/**/*.h",
+          "source_files": "PRCategoryKit/Classes/Tool/View/*.{h,m}",
+          "public_header_files": "PRCategoryKit/Classes/Tool/View/*.h",
           "frameworks": [
             "UIKit",
             "Foundation",
