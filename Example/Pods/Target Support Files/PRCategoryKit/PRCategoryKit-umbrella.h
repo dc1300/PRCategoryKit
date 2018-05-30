@@ -11,8 +11,6 @@
 #endif
 
 #import "Header.h"
-#import "Header.h"
-#import "SSKeychain.h"
 #import "CALayer+LayerColor.h"
 #import "NSArray+Sort.h"
 #import "NSAttributedString+Extensions.h"
@@ -48,6 +46,21 @@
 #import "UIView+PFVViewUtils.h"
 #import "UIViewController+Utils.h"
 #import "Utils.h"
+#import "SSKeychain.h"
+#import "EmojiDelegate.h"
+#import "LCDStringContainsEmoji.h"
+#import "MBProgressHUD.h"
+#import "LLSimpleCamera.h"
+#import "UIImage+Crop.h"
+#import "UIImage+FixOrientation.h"
+#import "UIImage+Resize.h"
+#import "ViewUtils.h"
+#import "PFPageJumpTool.h"
+#import "PFVLoginStatue.h"
+#import "JKCountDownButton.h"
+#import "UIViewExt.h"
+#import "XWAlertViewController.h"
+#import "XWMatching.h"
 
 FOUNDATION_EXPORT double PRCategoryKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char PRCategoryKitVersionString[];
