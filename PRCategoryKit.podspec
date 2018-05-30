@@ -29,7 +29,7 @@ s.subspec 'SSKeychain' do |sskeychain|
 end
 
 s.subspec 'Tool' do |tool|
-tool.source_files = 'PRCategoryKit/Classes/Tool/**/*.{h,m}','PRCategoryKit/Classes/*.h'
+tool.source_files = 'PRCategoryKit/Classes/Tool/**/*'
     tool.dependency 'PRCategoryKit/Category'
     tool.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
     tool.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"

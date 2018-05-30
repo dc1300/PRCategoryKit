@@ -52,10 +52,7 @@
     },
     {
       "name": "Tool",
-      "source_files": [
-        "PRCategoryKit/Classes/Tool/**/*.{h,m}",
-        "PRCategoryKit/Classes/*.h"
-      ],
+      "source_files": "PRCategoryKit/Classes/Tool/**/*",
       "dependencies": {
         "PRCategoryKit/Category": [
 
