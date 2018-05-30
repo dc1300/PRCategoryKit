@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "68",
+  "version": "69",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "68"
+    "tag": "69"
   },
   "platforms": {
     "ios": "8.0"
