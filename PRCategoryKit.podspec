@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '64'
+  s.version          = '66'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -13,31 +13,27 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/dc1300/PRCategoryKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-    s.source_files = "PRCategoryKit/Classes/**/*","PRCategoryKit/Classes/*.h"
-#s.public_header_files = "PRCategoryKit/Classes/*.h"
+    s.source_files = "PRCategoryKit/Classes/*.h"
+    s.public_header_files = "PRCategoryKit/Classes/*.h"
     s.frameworks = "UIKit","Foundation"
 
-s.subspec 'Header' do |header|
-header.source_files = 'PRCategoryKit/Classes/Header/*'
+
+s.subspec 'Category' do |ss|
+    ss.source_files = "PRCategoryKit/Classes/Category/*"
+    ss.public_header_files = "PRCategoryKit/Classes/Category/*.h",
+    ss.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
 end
 
-s.subspec 'Category' do |category|
-    category.source_files = "PRCategoryKit/Classes/Category/*"
-    category.dependency 'PRCategoryKit/Header'
-    category.public_header_files = "PRCategoryKit/Classes/Category/*.h",
-    category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
+s.subspec 'SSKeychain' do |ss|
+    ss.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
+    ss.frameworks = "Security"
 end
 
-s.subspec 'SSKeychain' do |sskeychain|
-    sskeychain.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
-    sskeychain.frameworks = "Security"
-end
-
-s.subspec 'Tool' do |tool|
-    tool.source_files = "PRCategoryKit/Classes/Tool/**/*"
-    tool.dependency 'PRCategoryKit/Category'
-    tool.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
-    tool.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+s.subspec 'Tool' do |ss|
+    ss.source_files = "PRCategoryKit/Classes/Tool/**/*"
+    ss.dependency 'Category'
+    ss.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
+    ss.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
 end
 
 

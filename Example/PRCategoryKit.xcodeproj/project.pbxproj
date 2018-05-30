@@ -307,10 +307,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-PRCategoryKit_Example/Pods-PRCategoryKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Category/Category.framework",
 				"${BUILT_PRODUCTS_DIR}/PRCategoryKit/PRCategoryKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Category.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PRCategoryKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,15 +1,13 @@
 PODS:
-  - PRCategoryKit (64):
-    - PRCategoryKit/Category (= 64)
-    - PRCategoryKit/Header (= 64)
-    - PRCategoryKit/SSKeychain (= 64)
-    - PRCategoryKit/Tool (= 64)
-  - PRCategoryKit/Category (64):
-    - PRCategoryKit/Header
-  - PRCategoryKit/Header (64)
-  - PRCategoryKit/SSKeychain (64)
-  - PRCategoryKit/Tool (64):
-    - PRCategoryKit/Category
+  - Category (0.0.3)
+  - PRCategoryKit (66):
+    - PRCategoryKit/Category (= 66)
+    - PRCategoryKit/SSKeychain (= 66)
+    - PRCategoryKit/Tool (= 66)
+  - PRCategoryKit/Category (66)
+  - PRCategoryKit/SSKeychain (66)
+  - PRCategoryKit/Tool (66):
+    - Category
 
 DEPENDENCIES:
   - PRCategoryKit (from `../`)
@@ -19,7 +17,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PRCategoryKit: c2e3e7d4589706243263d13bbf54d8eafc3bc3fe
+  Category: b30ab3bc89d2823702114bedd805846925d81e3c
+  PRCategoryKit: 99ace718ff6959ac7cb1daee49424bbbc56f46d3
 
 PODFILE CHECKSUM: b598c9babae77cadb8f08af9a4f9c2000cc49315
 
