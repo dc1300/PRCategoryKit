@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "38",
+  "version": "39",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "38"
+    "tag": "39"
   },
   "platforms": {
     "ios": "8.0"
@@ -28,6 +28,7 @@
     {
       "name": "Category",
       "source_files": "PRCategoryKit/Classes/Category/*",
+      "public_header_files": "PRCategoryKit/Classes/Category/*.h",
       "frameworks": [
         "UIKit",
         "Foundation",
@@ -39,17 +40,6 @@
       "name": "SSKeychain",
       "source_files": "PRCategoryKit/Classes/SSKeychain/*",
       "frameworks": "Security"
-    },
-    {
-      "name": "Tool",
-      "source_files": "PRCategoryKit/Classes/Tool/**/*",
-      "frameworks": [
-        "UIKit",
-        "Foundation",
-        "ImageIO",
-        "AVFoundation",
-        "QuartzCore"
-      ]
     }
   ]
 }
