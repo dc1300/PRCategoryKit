@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '39'
+  s.version          = '40'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -19,7 +19,7 @@ TODO: Add long description of the pod here.
 
 s.subspec 'Category' do |category|
     category.source_files = 'PRCategoryKit/Classes/Category/*'
-    category.public_header_files = "PRCategoryKit/Classes/Category/*.h"
+    category.public_header_files = "PRCategoryKit/Classes/Category/Header.h"
     category.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
 end
 
