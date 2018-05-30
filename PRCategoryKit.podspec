@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '40'
+  s.version          = '41'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -13,8 +13,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/dc1300/PRCategoryKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-    s.source_files = "PRCategoryKit/Classes/*.{h,m}"
-    s.public_header_files = "PRCategoryKit/Classes/*.h"
+    s.source_files = "PRCategoryKit/Classes/**/*.{h,m}"
+    s.public_header_files = "PRCategoryKit/Classes/**/*.h"
     s.frameworks = "UIKit","Foundation"
 
 s.subspec 'Category' do |category|
