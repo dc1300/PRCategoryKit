@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '74'
+  s.version          = '75'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -15,47 +15,47 @@ TODO: Add long description of the pod here.
 
     s.source_files = "PRCategoryKit/Classes/Header.h"
     s.public_header_files = "PRCategoryKit/Classes/Header.h"
-    s.frameworks = "UIKit","Foundation"
+    s.frameworks = "UIKit","Foundation","QuartzCore","CoreText","PRCategoryKit"
 
 
 s.subspec 'Category' do |ss|
-    ss.source_files = "PRCategoryKit/Classes/Category/*"
+ss.source_files = "PRCategoryKit/Classes/Category/*.{h,m}"
 #,"PRCategoryKit/Classes/Header.h"
     ss.public_header_files = "PRCategoryKit/Classes/Category/*.h"
 #,"PRCategoryKit/Classes/Header.h"
-    ss.frameworks = "UIKit","Foundation","QuartzCore","CoreText","Category"
+ ss.frameworks = "UIKit","Foundation","QuartzCore","CoreText","Category","ImageIO","AVFoundation","QuartzCore","Category"
 end
 
 s.subspec 'SSKeychain' do |ss|
     ss.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
-    ss.frameworks = "Security"
+    ss.frameworks = "Security","SSKeychain"
 end
 
 s.subspec 'Tool' do |ss|
 #ss.dependency 'PRCategoryKit/Category'
     ss.source_files = "PRCategoryKit/Classes/Tool/*.{h,m}"
     ss.public_header_files = "PRCategoryKit/Classes/Tool/*.h"
-    ss.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore","Category"
+    ss.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore","Tool"
 
     ss.subspec 'Appliance' do |ssta|
         ssta.dependency 'PRCategoryKit/Category'
         ssta.dependency 'PRCategoryKit/Tool/View'
         ssta.source_files = "PRCategoryKit/Classes/Tool/Appliance/*.{h,m}"
         ssta.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/*.h"
-        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore","Appliance"
 
         ssta.subspec 'NoticeCameraCategory' do |sstan|
             sstan.dependency 'PRCategoryKit/Category'
         sstan.source_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.{h,m}"
             sstan.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.h"
-            sstan.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+        sstan.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore","NoticeCameraCategory"
         end
     end
     ss.subspec 'View' do |ssta|
         ssta.dependency 'PRCategoryKit/Category'
         ssta.source_files = "PRCategoryKit/Classes/Tool/View/*.{h,m}"
         ssta.public_header_files = "PRCategoryKit/Classes/Tool/View/*.h"
-        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore","View"
     end
 end
 

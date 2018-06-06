@@ -1,7 +1,7 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PRCategoryKit
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
-OTHER_LDFLAGS = -framework "AVFoundation" -framework "Category" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "UIKit"
+OTHER_LDFLAGS = -framework "AVFoundation" -framework "Appliance" -framework "Category" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "NoticeCameraCategory" -framework "PRCategoryKit" -framework "QuartzCore" -framework "SSKeychain" -framework "Security" -framework "Tool" -framework "UIKit" -framework "View"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
