@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "73",
+  "version": "74",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "73"
+    "tag": "74"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,19 +27,14 @@
   "subspecs": [
     {
       "name": "Category",
-      "source_files": [
-        "PRCategoryKit/Classes/Category/*",
-        "PRCategoryKit/Classes/Header.h"
-      ],
-      "public_header_files": [
-        "PRCategoryKit/Classes/Category/*.h",
-        "PRCategoryKit/Classes/Header.h"
-      ],
+      "source_files": "PRCategoryKit/Classes/Category/*",
+      "public_header_files": "PRCategoryKit/Classes/Category/*.h",
       "frameworks": [
         "UIKit",
         "Foundation",
         "QuartzCore",
-        "CoreText"
+        "CoreText",
+        "Category"
       ]
     },
     {
@@ -49,11 +44,6 @@
     },
     {
       "name": "Tool",
-      "dependencies": {
-        "PRCategoryKit/Category": [
-
-        ]
-      },
       "source_files": "PRCategoryKit/Classes/Tool/*.{h,m}",
       "public_header_files": "PRCategoryKit/Classes/Tool/*.h",
       "frameworks": [
@@ -61,7 +51,8 @@
         "Foundation",
         "ImageIO",
         "AVFoundation",
-        "QuartzCore"
+        "QuartzCore",
+        "Category"
       ],
       "subspecs": [
         {

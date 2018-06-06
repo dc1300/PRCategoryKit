@@ -7,6 +7,7 @@
 //
 
 #import "CALayer+LayerColor.h"
+#import "PFVLoginStatue.h"
 
 @implementation CALayer (LayerColor)
 
