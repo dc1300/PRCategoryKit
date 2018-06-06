@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "79",
+  "version": "80",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "79"
+    "tag": "80"
   },
   "platforms": {
     "ios": "8.0"
@@ -25,7 +25,6 @@
     "Foundation",
     "QuartzCore",
     "CoreText",
-    "Category",
     "ImageIO",
     "AVFoundation",
     "QuartzCore",
