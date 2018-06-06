@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PRCategoryKit'
-s.version          = '81'
+s.version          = '82'
 s.summary          = 'A short description of PRCategoryKit.'
 s.description      = <<-DESC
 TODO: Add long description of the pod here.
@@ -18,31 +18,31 @@ s.frameworks = "UIKit","Foundation","QuartzCore","CoreText","ImageIO","AVFoundat
 
 
 s.subspec 'Category' do |ss|
-ss.source_files = "PRCategoryKit/Classes/Category.{h,m}"
-ss.public_header_files = "PRCategoryKit/Classes/Category.h"
+ss.source_files = "PRCategoryKit/Classes/Category/*.{h,m}"
+ss.public_header_files = "PRCategoryKit/Classes/Category/*.h"
 end
 
 s.subspec 'SSKeychain' do |ss|
-ss.source_files = 'PRCategoryKit/Classes/SSKeychain.{h,m}'
+ss.source_files = 'PRCategoryKit/Classes/SSKeychain/*.{h,m}'
 ss.frameworks = "Security"
 end
 
 s.subspec 'Tool' do |ss|
-ss.source_files = "PRCategoryKit/Classes/Tool.{h,m}"
-ss.public_header_files = "PRCategoryKit/Classes/Tool.h"
+ss.source_files = "PRCategoryKit/Classes/Tool/**/*.{h,m}"
+ss.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
 
 ss.subspec 'Appliance' do |ssta|
-ssta.source_files = "PRCategoryKit/Classes/Tool/Appliance.{h,m}"
-ssta.public_header_files = "PRCategoryKit/Classes/Tool/Appliance.h"
+ssta.source_files = "PRCategoryKit/Classes/Tool/Appliance/**/*.{h,m}"
+ssta.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/**/*.h"
 
 ssta.subspec 'NoticeCameraCategory' do |sstan|
-sstan.source_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory.{h,m}"
-sstan.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory.h"
+sstan.source_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/**/*.{h,m}"
+sstan.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/**/*.h"
 end
 end
 ss.subspec 'View' do |ssta|
-ssta.source_files = "PRCategoryKit/Classes/Tool/View.{h,m}"
-ssta.public_header_files = "PRCategoryKit/Classes/Tool/View.h"
+ssta.source_files = "PRCategoryKit/Classes/Tool/View/**/*.{h,m}"
+ssta.public_header_files = "PRCategoryKit/Classes/Tool/View/**/*.h"
 end
 
 end
