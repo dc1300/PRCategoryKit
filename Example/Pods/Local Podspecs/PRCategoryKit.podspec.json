@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "77",
+  "version": "78",
   "summary": "A short description of PRCategoryKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,13 +13,13 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "77"
+    "tag": "78"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "PRCategoryKit/Classes/**/*.{h,m}",
-  "public_header_files": "PRCategoryKit/Classes/**/*.h",
+  "public_header_files": "PRCategoryKit/Classes/**/*.",
   "frameworks": [
     "UIKit",
     "Foundation",
@@ -28,6 +28,7 @@
     "Category",
     "ImageIO",
     "AVFoundation",
-    "QuartzCore"
+    "QuartzCore",
+    "Security"
   ]
 }
