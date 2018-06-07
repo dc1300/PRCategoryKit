@@ -1,50 +1,60 @@
+
 Pod::Spec.new do |s|
-s.name             = 'PRCategoryKit'
-s.version          = '83'
-s.summary          = 'A short description of PRCategoryKit.'
-s.description      = <<-DESC
+  s.name             = 'PRCategoryKit'
+  s.version          = '84'
+  s.summary          = 'A short description of PRCategoryKit.'
+  s.description      = <<-DESC
 TODO: Add long description of the pod here.
-DESC
+                       DESC
 
-s.homepage         = 'https://github.com/dc1300/PRCategoryKit'
-s.license          = { :type => 'MIT', :file => 'LICENSE' }
-s.author           = { 'dc1300' => 'dravendc@foxmail.com' }
-s.source           = { :git => 'https://github.com/dc1300/PRCategoryKit.git', :tag => s.version.to_s }
-s.ios.deployment_target = '8.0'
+  s.homepage         = 'https://github.com/dc1300/PRCategoryKit'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'dc1300' => 'dravendc@foxmail.com' }
+  s.source           = { :git => 'https://github.com/dc1300/PRCategoryKit.git', :tag => s.version.to_s }
+  s.ios.deployment_target = '8.0'
 
-s.source_files = "PRCategoryKit/Classes/**/*.{h,m}"
-s.public_header_files = "PRCategoryKit/Classes/**/*.h"
-s.frameworks = "UIKit","Foundation","QuartzCore","CoreText","ImageIO","AVFoundation","QuartzCore","Security","PRCategoryKit"
+    s.source_files = "PRCategoryKit/Classes/Header.h"
+    s.public_header_files = "PRCategoryKit/Classes/Header.h"
+    s.frameworks = "UIKit","Foundation"
 
 
 s.subspec 'Category' do |ss|
-ss.source_files = "PRCategoryKit/Classes/Category/*.{h,m}"
-ss.public_header_files = "PRCategoryKit/Classes/Category/*.h"
+    ss.source_files = "PRCategoryKit/Classes/Category/*","PRCategoryKit/Classes/Header.h"
+    ss.public_header_files = "PRCategoryKit/Classes/Category/*.h","PRCategoryKit/Classes/Header.h"
+    ss.frameworks = "UIKit","Foundation","QuartzCore","CoreText"
 end
 
-s.subspec 'SSKeychain' do |ssk|
-ssk.source_files = 'PRCategoryKit/Classes/SSKeychain/*.{h,m}'
-ssk.frameworks = "Security"
+s.subspec 'SSKeychain' do |ss|
+    ss.source_files = 'PRCategoryKit/Classes/SSKeychain/*'
+    ss.frameworks = "Security"
 end
 
-s.subspec 'Tool' do |sst|
-sst.source_files = "PRCategoryKit/Classes/Tool/**/*.{h,m}"
-sst.public_header_files = "PRCategoryKit/Classes/Tool/**/*.h"
-sst.subspec 'Appliance' do |ssta|
-ssta.source_files = "PRCategoryKit/Classes/Tool/Appliance/**/*.{h,m}"
-ssta.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/**/*.h"
+s.subspec 'Tool' do |ss|
+    ss.dependency 'PRCategoryKit/Category'
+    ss.source_files = "PRCategoryKit/Classes/Tool/*.{h,m}"
+    ss.public_header_files = "PRCategoryKit/Classes/Tool/*.h"
+    ss.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
 
-ssta.subspec 'NoticeCameraCategory' do |sstan|
-sstan.source_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/**/*.{h,m}"
-sstan.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/**/*.h"
-end
-end
-sst.subspec 'View' do |ssta|
-ssta.source_files = "PRCategoryKit/Classes/Tool/View/**/*.{h,m}"
-ssta.public_header_files = "PRCategoryKit/Classes/Tool/View/**/*.h"
-end
+    ss.subspec 'Appliance' do |ssta|
+        ssta.dependency 'PRCategoryKit/Category'
+        ssta.dependency 'PRCategoryKit/Tool/View'
+        ssta.source_files = "PRCategoryKit/Classes/Tool/Appliance/*.{h,m}"
+        ssta.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/*.h"
+        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
 
+        ssta.subspec 'NoticeCameraCategory' do |sstan|
+            sstan.dependency 'PRCategoryKit/Category'
+        sstan.source_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.{h,m}"
+            sstan.public_header_files = "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.h"
+            sstan.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+        end
+    end
+    ss.subspec 'View' do |ssta|
+        ssta.dependency 'PRCategoryKit/Category'
+        ssta.source_files = "PRCategoryKit/Classes/Tool/View/*.{h,m}"
+        ssta.public_header_files = "PRCategoryKit/Classes/Tool/View/*.h"
+        ssta.frameworks = "UIKit","Foundation","ImageIO","AVFoundation","QuartzCore"
+    end
 end
-
 
 end
