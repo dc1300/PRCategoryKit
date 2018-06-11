@@ -109,7 +109,7 @@
 #define KBtnColor1 COLORRGB(40,149,225)
 #define KBtnColor2 COLORRGB(255,59,48)
 
-//#define KPlaceHolderColor [UIColor colorFromHexCode:@"D2D2D2"]
+#define KPlaceHolderColor [UIColor colorFromHexCode:@"D2D2D2"]
 #define KColor1 COLORRGB(230, 243, 248)
 #define KColor2 COLORRGB(205, 231, 240)
 #define KColor3 COLORRGB(238, 95, 81)//红
@@ -125,11 +125,11 @@
 #define KColor13 COLORRGB(255, 79, 79)//9999会员订单必填项
 
 
-//#define COLOR3 [UIColor colorFromHexCode:@"#333333"]
-//#define COLOR9 [UIColor colorFromHexCode:@"#999999"]
+#define COLOR3 [UIColor colorFromHexCode:@"#333333"]
+#define COLOR9 [UIColor colorFromHexCode:@"#999999"]
 
-//#define color33 [UIColor colorFromHexCode:@"333333"]
-//#define colorc7 [UIColor colorFromHexCode:@"c7c7cd"]
+#define color33 [UIColor colorFromHexCode:@"333333"]
+#define colorc7 [UIColor colorFromHexCode:@"c7c7cd"]
 
 //获取Image
 #define IMG(NAME) [UIImage imageNamed:(NAME)]
@@ -191,7 +191,6 @@ static inline BOOL IsEmpty(id thing) {
     || ([thing respondsToSelector:@selector(count)]
         && [(NSArray *)thing count] == 0);
 }
-
 
 #define  adjustsScrollViewInsets_NO(scrollView,vc)\
 do { \

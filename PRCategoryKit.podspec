@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PRCategoryKit'
-  s.version          = '89'
+  s.version          = '90'
   s.summary          = 'A short description of PRCategoryKit.'
   s.description      = <<-DESC
                         通用类

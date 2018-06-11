@@ -7,6 +7,7 @@
 //
 
 #import "NSAttributedString+Extensions.h"
+#import "Header.h"
 
 #define defaultColor [UIColor whiteColor]
 #define defaultSize  14
@@ -89,7 +90,7 @@
                                         NSFontAttributeName: fontValue
                                         } range:NSMakeRange(0, attrString.length)];
             
-            if (!NSIsEmpty(keyArray)) {
+            if (!IsEmpty(keyArray)) {
                 if (keyArray.count > idx) {
                     id thing = keyArray[idx];
                     if ([thing isKindOfClass:[NSDictionary class]]) {
@@ -98,7 +99,7 @@
                 }
             }
             
-            if (!NSIsEmpty(offset)) {
+            if (!IsEmpty(offset)) {
                 [attrString addAttributes:@{NSBaselineOffsetAttributeName: offset} range:NSMakeRange(0, attrString.length)];
             }
             
@@ -109,11 +110,4 @@
     return attributedString;
 }
 
-static inline BOOL NSIsEmpty(id thing) {
-    return thing == nil || [thing isEqual:[NSNull null]]
-    || ([thing respondsToSelector:@selector(length)]
-        && [(NSData *)thing length] == 0)
-    || ([thing respondsToSelector:@selector(count)]
-        && [(NSArray *)thing count] == 0);
-}
 @end

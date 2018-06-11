@@ -8,6 +8,7 @@
 
 #import "LCDStringContainsEmoji.h"
 
+
 @implementation LCDStringContainsEmoji
 - (BOOL) emojiInUnicodeX:(short)code
 {

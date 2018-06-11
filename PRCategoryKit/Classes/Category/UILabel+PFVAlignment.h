@@ -26,6 +26,9 @@
  */
 - (void)changeWordSpaceForLabelWithSpace:(float)space;
 
-
+/**
+ *  改变行间距和字间距
+ */
+- (void)changeSpaceForLabelwithLineSpace:(float)lineSpace WordSpace:(float)wordSpace;
 
 @end
