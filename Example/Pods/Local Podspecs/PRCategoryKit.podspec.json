@@ -1,8 +1,8 @@
 {
   "name": "PRCategoryKit",
-  "version": "90",
-  "summary": "A short description of PRCategoryKit.",
-  "description": "通用类",
+  "version": "91",
+  "summary": "金融村公共类",
+  "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
   "license": {
     "type": "MIT",
@@ -13,47 +13,50 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "90"
+    "tag": "91"
   },
   "platforms": {
     "ios": "8.0"
   },
+  "static_framework": true,
   "requires_arc": true,
-  "ios": {
-    "source_files": "PRCategoryKit/Classes/**/*.{h,m}",
-    "public_header_files": "PRCategoryKit/Classes/**/*.h",
-    "frameworks": [
-      "UIKit",
-      "QuartzCore",
-      "ImageIO",
-      "SystemConfiguration",
-      "Security",
-      "CoreTelephony",
-      "CoreText",
-      "CoreGraphics",
-      "Foundation",
-      "AssetsLibrary",
-      "CFNetwork"
-    ],
-    "vendored_frameworks": "PRCategoryKit/Classes/QQSDK/TencentOpenAPI.framework",
-    "vendored_libraries": [
-      "PRCategoryKit/Classes/WeiboSDK/libWeiboSDK.a",
-      "PRCategoryKit/Classes/WeChatSDK/libWeChatSDK.a"
-    ]
-  },
+  "source_files": "PRCategoryKit/Classes/**/*.{h,m}",
+  "public_header_files": "PRCategoryKit/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "QuartzCore",
+    "ImageIO",
+    "SystemConfiguration",
+    "Security",
+    "CoreTelephony",
+    "CoreText",
+    "CoreGraphics",
+    "AssetsLibrary",
+    "CFNetwork",
+    "AVFoundation",
+    "QuartzCore",
+    "Photos"
+  ],
   "libraries": [
     "iconv",
     "sqlite3",
     "stdc++",
     "z"
   ],
+  "ios": {
+    "vendored_frameworks": "PRCategoryKit/Classes/QQSDK/TencentOpenAPI.framework",
+    "vendored_libraries": [
+      "PRCategoryKit/WeiboSDK/libWeiboSDK.a",
+      "PRCategoryKit/WeChatSDK/libWeChatSDK.a"
+    ]
+  },
   "resource_bundles": {
     "PRCategoryKit": [
       "PRCategoryKit/Classes/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
     ],
-    "WeiboSDKBundles": [
+    "WeiboSDKBundle": [
       "PRCategoryKit/Classes/WeiboSDK/WeiboSDK.bundle"
     ]
-  },
-  "static_framework": true
+  }
 }

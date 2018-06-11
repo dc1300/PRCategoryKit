@@ -1,5 +1,5 @@
 PODS:
-  - PRCategoryKit (90)
+  - PRCategoryKit (91)
 
 DEPENDENCIES:
   - PRCategoryKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PRCategoryKit: a80e22adec560d6e03ba77d766ff03ff14ca8f03
+  PRCategoryKit: 4d1f7a8494690977ab07859e97f91f51fba5abfa
 
 PODFILE CHECKSUM: b598c9babae77cadb8f08af9a4f9c2000cc49315
 
