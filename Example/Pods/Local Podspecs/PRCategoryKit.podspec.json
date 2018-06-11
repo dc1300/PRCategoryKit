@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "91",
+  "version": "92",
   "summary": "金融村公共类",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "91"
+    "tag": "92"
   },
   "platforms": {
     "ios": "8.0"
@@ -47,8 +47,8 @@
   "ios": {
     "vendored_frameworks": "PRCategoryKit/Classes/QQSDK/TencentOpenAPI.framework",
     "vendored_libraries": [
-      "PRCategoryKit/WeiboSDK/libWeiboSDK.a",
-      "PRCategoryKit/WeChatSDK/libWeChatSDK.a"
+      "PRCategoryKit/Classes/WeiboSDK/libWeiboSDK.a",
+      "PRCategoryKit/Classes/WeChatSDK/libWeChatSDK.a"
     ]
   },
   "resource_bundles": {

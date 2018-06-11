@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'PRCategoryKit'
-s.version          = '91'
+s.version          = '92'
 s.summary          = '金融村公共类'
 
 s.description      = <<-DESC
@@ -24,7 +24,7 @@ s.libraries = 'iconv','sqlite3','stdc++','z'
 
   s.ios.vendored_frameworks = 'PRCategoryKit/Classes/QQSDK/TencentOpenAPI.framework'
 #s.ios.vendored_framework = 'PRCategoryKit/QQSDK/TencentOpenAPI.framework'
-s.ios.vendored_libraries = 'PRCategoryKit/WeiboSDK/libWeiboSDK.a','PRCategoryKit/WeChatSDK/libWeChatSDK.a'
+s.ios.vendored_libraries = 'PRCategoryKit/Classes/WeiboSDK/libWeiboSDK.a','PRCategoryKit/Classes/WeChatSDK/libWeChatSDK.a'
 
 
   s.resource_bundles = {
