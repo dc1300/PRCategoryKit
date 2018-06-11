@@ -7,151 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0462BC15B489F3D32DA617F9B88C9A06 /* UIView+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDD7AC3EFC0B98EB507CA3D0EFCEAFC /* UIView+BXExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		00A0B418DB601DD09559593FCA983420 /* EmojiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D191C6AD34A951E3915EBBD6F8292F /* EmojiDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01818273555E483688A01667ED0CC71F /* PFPageJumpTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF19CD1AD48DB067258EC30E6BD78FD /* PFPageJumpTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		044D05EABCF4DCB6EA59205971568476 /* NSCalendar+PRCalender.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBD39BEF6708512BCE80EA34B0E1A64 /* NSCalendar+PRCalender.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		04A8E92174C38F6125B4B0043974FE9D /* NSURL+PRUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = F303D91A594E3F90343CF552BD707AAB /* NSURL+PRUrl.m */; };
 		06ECCC7B995B622C06732F643F2E6D40 /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE5806D4D521C3C214125B94045BE3F /* UIViewController+Utils.m */; };
-		07A19BCFA7656208C3E2A1815D385CFD /* WBHttpRequest+WeiboGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FD92FED9E077D97C5B2B50719D1E7 /* WBHttpRequest+WeiboGame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		07679DD6CB4649E3EAEDAF2AB80DEFE0 /* NSDate+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2DEC7285A01A39D6ED9520D3BB0D59 /* NSDate+Helper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		081ABD2DDE2C2A65C629557C56DB2932 /* UITextView+PlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B30B5CB96FF97129095C1296FF7FC692 /* UITextView+PlaceHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC9D027489345E085FD6D28146FFC4F /* UITextField+ExtentRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 260E965815AC6D62FEDFFADECBF56196 /* UITextField+ExtentRange.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD12192D0B1410D3C6F51B0C63C45A3 /* UILabel+PFVAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = EB06C1C13FBBD7B012A7774DBFFE6FD9 /* UILabel+PFVAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C03F515623EFCD13FF31A17DFA6DBB4 /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD60ED5C076D1A21AAA90B2176A628C /* TencentMessageObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0CACFCD430B1652A447B64C9CF36C3DF /* UIDevice+UIDeviceCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D16C4C4A9382DDA986534D014CB776 /* UIDevice+UIDeviceCategory.m */; };
-		0E5E4583665BDBFFB288EE2DA7DE993A /* UITextView+PlaceHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = B30B5CB96FF97129095C1296FF7FC692 /* UITextView+PlaceHolder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0EF58B52530A2B98288E55533B4DF186 /* UIBarButtonItem+Item.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AB58CABD6923D053FFDED463EEAEA8 /* UIBarButtonItem+Item.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F883490FA9009836B42C42ECAADD776 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8684725600C6D794D32436D7E5B7DC44 /* NSDate+Helper.m */; };
-		1062E889F3A53DD6DCE2A369066CD57A /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = E55E712A1079A84BF64112B84FD79411 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		12B89B6A2C8F8EE67FBCB231B22F19B9 /* WBSDKCommentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0741C8826478989D091CCFC23AF66686 /* WBSDKCommentButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10B52BB8AA880AFAF4F0384276647D23 /* UIViewController+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2E15BC03A7002C853CCFC81E163F70 /* UIViewController+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12F9362D0BBAEADB13FD94229F7FAD9B /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 2983847B7D485ADC60AF4DDEA5409C53 /* NSString+Emoji.m */; };
 		13C137AC6E2DC9375213747DFB10B95B /* UIButton+Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = D285EEEEB3A8C50B96E8E82971C67B28 /* UIButton+Touch.m */; };
-		14538BC2158FAE482F6001CB47597888 /* NSMutableDictionary+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D8AF2E8A22755E143FF89BD7546C5E /* NSMutableDictionary+URL.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		149B0673C8D0C3EE9FC4EBE9D5A64E87 /* UIView+PFVViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED65B804C06790F40C2C3FA24CE3171 /* UIView+PFVViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		14DD91497AB89FF2D8E87D50C2E46926 /* UITextField+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F5EB730D0725EFF04CCE26F63C6DE5 /* UITextField+BXExtension.m */; };
-		17DD0EDA73709F3D47A02FF1D6746752 /* UISearchBar+JCSearchBarPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C021BECAAAA4830F0F21EBE044DC01B /* UISearchBar+JCSearchBarPlaceholder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		17FB7F80ABA10C842BC7F46970309D8A /* LCDStringContainsEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 20802948622B850300818673F4046D55 /* LCDStringContainsEmoji.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		19393DECC88B830CA5105FB0C6EF1807 /* NewsShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 174BE51A8F20EDCF6DF45D05136295A3 /* NewsShareViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1A7F478FF320FEDA4C7E57D1A395B344 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036657F868D51913398D9951D883419F /* CoreGraphics.framework */; };
-		1CEF6AE454AE80FC6B93EF70CAB01EED /* WeiboSDK+Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4F6FDE2DA43957B58FFF6FC85AEE90 /* WeiboSDK+Statistics.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		21695F86D1BFDB0A899DA4E63D283CB0 /* UIFont+PFVCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE0AD902B8597B7D1A24DE570F496B9 /* UIFont+PFVCommon.m */; };
-		218FB7E77D4BE662F10CF20AEFF122D5 /* WBHttpRequest+WeiboShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3B68A542EB0FC001794578E000C606 /* WBHttpRequest+WeiboShare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		219A36BED5F43916D76726C30D8E8688 /* WBSDKRelationshipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFCE789C5F25235EF9042F21ABC3749 /* WBSDKRelationshipButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21CFF0109C57696F67C358D07E050379 /* PFPageJumpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3705962CE0D439E34CBF992529840FDD /* PFPageJumpTool.m */; };
+		25977ED4C24DF064DF2F41D8454CFB24 /* CALayer+LayerColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C62EC7562505F5EE994A7E1B447B166 /* CALayer+LayerColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		26333DC92BCC730E84E2148A43164858 /* NSNumberFormatter+Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 719CF9E000CE2519742BC290A72AA22F /* NSNumberFormatter+Currency.m */; };
-		2807AECD103F8BDF3B1747043B4D2318 /* XWAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2D870C1A3195E5ADA064BB95DB4ADB /* XWAlertViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		287DCF7F47087D075718BCD5D1EAF78D /* UIView+BXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFB3203045BE7A3994367712C624EF8 /* UIView+BXExtension.m */; };
-		2CD977B85065661A37C2A63E6D1DCA0C /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF7D022EC6E11706CFA8ABCB2F35003 /* UIImage+Image.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2EF7D3B1C93CA19DD529D9275DB82970 /* XWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC2B138D6C09393016DC619BDE4F333 /* XWMatching.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2960F57628DFC37BBCDA7573C180741C /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CADA42B78D224C03AA02FF1366306E /* WBHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BB684F1F9E90A333279AFE29329CB83 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9D678A7B87F00033C624F393B26965 /* SSKeychain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D223DC3648253A60417B9912682D4E3 /* UITextField+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1A33A80F248DFDC39AF0D99EF644B9 /* UITextField+BXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		300582E13BEA939B12E7ECA1DA63224C /* UIView+PFVViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 70222A3300C2D6944A4D2CE454466D8B /* UIView+PFVViewUtils.m */; };
-		30B652076A4148F60FC7A25F042C5EC1 /* UIButton+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B558D4CA10BBC5CA1B2DCABFC117F9 /* UIButton+EdgeInsets.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		328B3B9E53C16D95FAF94AA6BA2A4D6A /* UITextField+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1A33A80F248DFDC39AF0D99EF644B9 /* UITextField+BXExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		32321D05EB1258B2EFAFD46FEA6FFE0D /* XWMatching.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC2B138D6C09393016DC619BDE4F333 /* XWMatching.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		329ABB95E1CC55AC4BBC5BCB78E2D5CB /* NSString+XWKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 976AC31A67E72EEE5BD5F1459BCA003C /* NSString+XWKit.m */; };
+		33DFF7E49F8421C9543E0F8F34EEC75D /* TencentOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = E55E712A1079A84BF64112B84FD79411 /* TencentOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36304375B9E647995486A47C955A03A1 /* UITextView+PlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC12D07BB51BF6BD66E05B56156DAAA /* UITextView+PlaceHolder.m */; };
 		363974EA8B035284B3BA7ED5B2F87EC4 /* NSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4117FE8EF654C15CC16F614007D7BEB2 /* NSArray+Sort.m */; };
 		367A86C47AC177318FD029F0DCC94617 /* UIColor+HexCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 87168F029D30020803FC2AD829DD7711 /* UIColor+HexCode.m */; };
-		3CEF6E33E3CD8FF7D7A335063272F3FB /* WBHttpRequest+WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FD40F03FFEE72A168F473162A2EC80 /* WBHttpRequest+WeiboUser.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3EC3CB0DE1A2CBD97C250C8080D6E7E6 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = D16CB53AD9FCC8D54C63ACF10646C75E /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F38E4121CB77B737CEF5A72F19CE547 /* UIDevice+UIDeviceCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AAE5287D49AF0FB3901862963EA001 /* UIDevice+UIDeviceCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F971F103BBCE9C5C67ACC001B36D19B /* UIButton+Touch.h in Headers */ = {isa = PBXBuildFile; fileRef = 872B8FBCC9451E292103FA9B645A53B1 /* UIButton+Touch.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		44687D46123D31AFB639A64DB5578AA5 /* UISearchBar+JCSearchBarPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 785735F295554C8E96AF1815FFCC51BC /* UISearchBar+JCSearchBarPlaceholder.m */; };
 		456A2D1739DF9B5E63D9FD17CF178076 /* JKCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F99CDC6147C6737378F269196218C477 /* JKCountDownButton.m */; };
 		45B1CC43BB07DCD30E451398DAD242C6 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 950503C4591DD686699BBCA6C0C1C1DC /* TencentOpenApi_IOS_Bundle.bundle */; };
-		467F0865C031EBD548F663B89BABA9CB /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F97F86735CB2317EC8520A00776EED68 /* UIViewExt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		47AEE1D587299DC628579726D4A99225 /* UILabel+PFVAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = EB06C1C13FBBD7B012A7774DBFFE6FD9 /* UILabel+PFVAlignment.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		472A7B82A09A4ACD6776F8FBE51FDEC6 /* WBHttpRequest+WeiboShare.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3B68A542EB0FC001794578E000C606 /* WBHttpRequest+WeiboShare.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48B915BCE13E68F407AEA756EB78FEA1 /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C9525277EAA08B32DDC9CB863D4F2B3B /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4993E0DE8A30E7CA1E71D3324A1AAC0A /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 01615A0F422EA6DF529CE31D950E8331 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A6BF09AE33ACA526EE5EB8206B9A7D6 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = A82219D727484C17E90375D97FCE94DB /* UIImage+Resize.m */; };
 		4B8471900A918AACF82364D4D1A64D25 /* Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8478F9D59ECE3A36585F6DCDED3BFC /* Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BEF530069FA20C6ABB94F40B7977292 /* UIViewController+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2E15BC03A7002C853CCFC81E163F70 /* UIViewController+Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5014925B3930C4B96AA083D9EA4B43A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1906D6D1E42D9814226D2E7856DCB /* Security.framework */; };
 		54FB0742D57007CDFD14F3E1180A7000 /* UIButton+PFVButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EED75150BA7922448A1729C6FE648D /* UIButton+PFVButton.m */; };
 		55170BD7464E84061F8FDEF13E833EFE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82262B8F2C424387909003306EECC25 /* CFNetwork.framework */; };
 		55BADFFE54D82CF11C918A1D12BE1876 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = BC14BABEB2D1A18100396932C02269FB /* Utils.m */; };
 		56068038CCC8A6C91DCB5F1B6434DD68 /* PRCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB6998908E7E8B9B856F416B4CD89DA /* PRCategoryKit-dummy.m */; };
-		56D97D33BAC87A887D7B7C498FD5ED19 /* UIBarButtonItem+Item.h in Headers */ = {isa = PBXBuildFile; fileRef = 33AB58CABD6923D053FFDED463EEAEA8 /* UIBarButtonItem+Item.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56F094BEE791621030A5765604235864 /* WBHttpRequest+WeiboToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CF8CDCCC689BE5B961CDCDA0CE29C7 /* WBHttpRequest+WeiboToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57B585FFD10C64DE998B7408D025AC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2F4993982F95B0805A764DC4877DE3 /* Foundation.framework */; };
-		598A28E676C8C227672E51B219710AB7 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 37252AACC7309E63F9DAEDB67412CF99 /* Utils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5C4104E814F77054DD8E85E80A59A5C5 /* WBHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CADA42B78D224C03AA02FF1366306E /* WBHttpRequest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		586A5491CA0AF690BF010C8B02815599 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5854053FA826F66D75BDB00227A82F /* QQApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7749F041970295A1145EC1C7E6E994 /* UIFont+PFVCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F53BB5737DC0C33BD5616ED4D192F25 /* UIFont+PFVCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CC8CE16E3B53A9A2B264AB42A5E9DE8 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB87F3787B28E8DF3137EB5903A3FDF8 /* CoreText.framework */; };
-		5DF1254B90C9C1381118D097D8F1802D /* NSString+Emoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 754B4ADC209259DB3BFA1712DBF076C9 /* NSString+Emoji.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F07E85933F79DD0EDD35BA06C64A19A /* NSString+Emoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 754B4ADC209259DB3BFA1712DBF076C9 /* NSString+Emoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60223431E0249ABC530D50885840263C /* WeiboSDK+Statistics.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C4F6FDE2DA43957B58FFF6FC85AEE90 /* WeiboSDK+Statistics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60D34C2D3CF0DA5BEF6F03F5DAA7CD78 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CEEC7448BFE68954AA0F4C23DA722D1 /* LLSimpleCamera.m */; };
-		6197223ED4724031011CE815B37D2E73 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0C1EBDF59B85707000CE309D8156DC /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		626CA61E456FFDBC5E29901E17945DBA /* UIColor+HexCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF055F60B3EB0DE375AA62EC3C4A816 /* UIColor+HexCode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		639F14131A7DD8AC38F6B66EA117822E /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 067FF02629A554B1B50DFA67CA652C55 /* sdkdef.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		64D64495C02F8E3A737B575A4EEA2967 /* PFPageJumpTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF19CD1AD48DB067258EC30E6BD78FD /* PFPageJumpTool.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61E70D148CF8518167F774EB0E53584D /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D91FA2AA1472044C38871EDCD5F4D1C /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65D9B7FEB22FB4AC6377F34D5A84116A /* UITextField+ExtentRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3EE66A0298DEB11119C27CA81A88 /* UITextField+ExtentRange.m */; };
 		6601F972354416EB3D138F427B24E7E2 /* XWMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FCAD7E2081E6866E8909F6D743B8D7 /* XWMatching.m */; };
-		676F0C66DE62E6BEF88773FCC231B7C5 /* JKCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C15249E0616C6075978E8E7C7224EACC /* JKCountDownButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		681C8282DA8D911ACA8D031BEF030D7E /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE0AB189C27084C36BB0912820CBC18 /* WXApiObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6885694E59E1F392F801F5EBEF323F4B /* NSString+Currency.m in Sources */ = {isa = PBXBuildFile; fileRef = 409327EBD7E4019372E87F2669CE322D /* NSString+Currency.m */; };
+		68C293C49E7765540C326FA4F8A005D9 /* sdkdef.h in Headers */ = {isa = PBXBuildFile; fileRef = 067FF02629A554B1B50DFA67CA652C55 /* sdkdef.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		699FE38387D79E0F115B7451827B0C4F /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8F6E6E6DC7724434839DCFFFC543D8 /* UIImage+Crop.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A7D884E294C5B465128A7A86C36587B /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ABB70AC9400AB8F694E3F375ACC3FB /* UIImage+Image.m */; };
-		6CA277B339E83453A63D50AFD8CE015E /* UIFont+PFVCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F53BB5737DC0C33BD5616ED4D192F25 /* UIFont+PFVCommon.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6CDB8CA41F985429ABEE27FD627BD5BA /* SSKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = A5774EECFE98A285F0ED843DBE1E9D67 /* SSKeychain.m */; };
-		6F25A5462DC835B6ECD30B7B1901FE6E /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CEDED71D182A23CD2BAD90F160798A /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6D2D145E7CC9A2354EAA43DAED5AECA3 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F97F86735CB2317EC8520A00776EED68 /* UIViewExt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D686C4ADA1F68EF3C3EAB0CC1EE5902 /* UIView+ACExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A904E8D2A360E15E7FEB336805D2303F /* UIView+ACExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D74C2F69C02939EC562F70742419C19 /* WBSDKCommentButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0741C8826478989D091CCFC23AF66686 /* WBSDKCommentButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71DE74B0BA044E7D3784D273B647AC16 /* PRCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0033BA8034936D244A54DE6DDF391DB0 /* PRCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71F3D1EF9D52BB0C0C73E61380E71322 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A8A9C7D642AEE319E6C972162DCEA0 /* UIImage+Crop.m */; };
-		757E646A83B82A4804D9BC933F1D79F0 /* NSString+XWKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF3ED79310AEF6566425AF0DF7B7243 /* NSString+XWKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		737FA5B2F75C34353485C219CE768E02 /* UISearchBar+JCSearchBarPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C021BECAAAA4830F0F21EBE044DC01B /* UISearchBar+JCSearchBarPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		767BD077A31957EA255A50EE78EA8130 /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = AC4B65FAD38E9CFBCC4CB423C2C58867 /* UIButton+EdgeInsets.m */; };
-		779BA435B4A9A29C8218DF4CE42CC489 /* WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 935DD477C6637B58BDA828EA0AD176D0 /* WeiboUser.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		77BAFAD32E5259C90DA237BC46FED0C3 /* NSString+Currency.h in Headers */ = {isa = PBXBuildFile; fileRef = 18548F8BE28DF1BB4ACC5512607391FF /* NSString+Currency.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		77FFBEBEC61A55F62156630194DF74C3 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DD2048D7330EA431F84E57C38962B7 /* UIImage+FixOrientation.m */; };
+		7848D8E9C37F3152E4B5E0E326F9A3F2 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 37252AACC7309E63F9DAEDB67412CF99 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79A085A028AF7A65EDCFAECD4424E9B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613C7FE4248D8FB313B1314943153300 /* QuartzCore.framework */; };
+		7D555B90CB02B628F263D0BBA8D9A665 /* JKCountDownButton.h in Headers */ = {isa = PBXBuildFile; fileRef = C15249E0616C6075978E8E7C7224EACC /* JKCountDownButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E5B94631968E9626D4F24FD1268B32D /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B491D4D296E74502E2FC2234957B0868 /* NSDate+Extensions.m */; };
 		7E71CA174F9B1FFBAD2BF7E2A75EA559 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B4791740F871EAEF5A5208FE5B3790 /* NSString+MD5.m */; };
-		7F1554E732CE41734E4C16E809906DDF /* NSCalendar+PRCalender.h in Headers */ = {isa = PBXBuildFile; fileRef = FDBD39BEF6708512BCE80EA34B0E1A64 /* NSCalendar+PRCalender.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7FF6C10DC0BC8CE37DFD38C6AFB27C82 /* UILabel+PFVAlignment.m in Sources */ = {isa = PBXBuildFile; fileRef = 021E7DF020F7F2DD970160A374DA5C69 /* UILabel+PFVAlignment.m */; };
-		8100BCB493F4E4642CC491043F10A204 /* UIImage+FixOrientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D91FA2AA1472044C38871EDCD5F4D1C /* UIImage+FixOrientation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81BAC2A1DD2C137DCD8197E0EFAACE4C /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4532DDD7F71F63F77E68871486B51B /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		83D1D47FDA6799FB260AAF13F11C3A2B /* CALayer+LayerColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C62EC7562505F5EE994A7E1B447B166 /* CALayer+LayerColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8426D664DF204769A3744967B152CBB4 /* NSURL+PRUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = A72FF88083C02FC19A8AF953FB0E7097 /* NSURL+PRUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		845279BE87C4A05AEFC87829B5918F06 /* EmojiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F48969765B3FF3DD51CE833AA433675 /* EmojiDelegate.m */; };
-		84A439086B8A9101AB4EB08BF54DA8D2 /* WBSDKBasicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBA7C20E70FA923D9996F8DAEA6BEC2 /* WBSDKBasicButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B7FA32681518BFF487525329F132C35 /* NSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = AA005661418EC72AA537DC14D2551186 /* NSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		85A184C1DD177CEA66CC572E8F9DE3ED /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F015EE271EBCBFA545F9068A8A4ED57F /* WXApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		870A752DB14C27A7A650EBF63E94F1AF /* UIColor+HexCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF055F60B3EB0DE375AA62EC3C4A816 /* UIColor+HexCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87AAAB272E2A4BF0148369548E1D9C68 /* UIButton+EdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 58B558D4CA10BBC5CA1B2DCABFC117F9 /* UIButton+EdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D7E50DC0073B3EFE0FE7DC905B7AF88 /* NSString+Check.m in Sources */ = {isa = PBXBuildFile; fileRef = 652C3CFBAB010C5B309FEBDD486A9836 /* NSString+Check.m */; };
-		929496BA5E82908657A95BD6885717A4 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = D16CB53AD9FCC8D54C63ACF10646C75E /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		94BE8157A1690977174F39F7C4F2DCAB /* UITextField+ExtentRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 260E965815AC6D62FEDFFADECBF56196 /* UITextField+ExtentRange.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EE0EE3FDBE275D355A4E16AB48C294F /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F103D202A3545FB35C7B981B3A9D475 /* TencentApiInterface.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94565CA2A09B3C9F9B87461248867B28 /* WXApiObject.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE0AB189C27084C36BB0912820CBC18 /* WXApiObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D61EDE5BE834E55A1831F6D29EE073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2F4993982F95B0805A764DC4877DE3 /* Foundation.framework */; };
-		9DDFF7FBAA7A97A35BEAE3CA4433C899 /* SSKeychain.h in Headers */ = {isa = PBXBuildFile; fileRef = EB9D678A7B87F00033C624F393B26965 /* SSKeychain.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A0CA504A81468F544823828EAC6EF149 /* WBSDKRelationshipButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CDFCE789C5F25235EF9042F21ABC3749 /* WBSDKRelationshipButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		95D710E507A4A5E498FEE7F730C394D0 /* NSString+Check.h in Headers */ = {isa = PBXBuildFile; fileRef = 4995946E0D2CC73620E33DF63BF8E911 /* NSString+Check.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98266FE42CBC9C8F897CC933B7ED01ED /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCBABD4CEEB2F7025658CF9068BFAE8 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E58CFE48057F9D4864A7AED1BE4164 /* WBHttpRequest+WeiboGame.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1FD92FED9E077D97C5B2B50719D1E7 /* WBHttpRequest+WeiboGame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E03C2BFB429DF70D9AD960B1608EB37 /* UIView+BXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CDD7AC3EFC0B98EB507CA3D0EFCEAFC /* UIView+BXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F8B6CD2F35B0BF1204F052F19907902 /* ViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1199011E2B997526E641CA800C4B82A2 /* ViewUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A193CA8E7C292D229939ECFAF1C1BBD3 /* NSCalendar+PRCalender.m in Sources */ = {isa = PBXBuildFile; fileRef = C70C0848FEC42CF1A4531C064818ABAB /* NSCalendar+PRCalender.m */; };
-		A2180E4ABAD14DDD629133199CDB7240 /* PFVLoginStatue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5440EA26269575385D1DA05B026EFD2B /* PFVLoginStatue.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A2CC1E83C6406280E91F5DB4088C216D /* XWAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2342667ECC9816DE88F25A90A2259111 /* XWAlertViewController.m */; };
 		A30B9AAADB413C1D159474B2F0E126DA /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = AE7510F1165B34AEF96037149D4A5820 /* UIView+Frame.m */; };
-		A49F9ED393A1C79227F5BE8CE430A568 /* UIImage+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D8F6E6E6DC7724434839DCFFFC543D8 /* UIImage+Crop.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4A5DEF2075A10C32CF0DCE26DE9FEBE /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB976022A9F62F306FDE466F3E3BABB /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4C277F3F48B96F9205EC9E280EA6277 /* UIImage+Resolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 741CB3E253545918B390362599CB8F42 /* UIImage+Resolution.m */; };
+		A528457724619E479FCED46271A41C7D /* NSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = AA005661418EC72AA537DC14D2551186 /* NSArray+Sort.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6ED8DCDCCA7E1884E2F143CB62FE425 /* TencentOAuthObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 74CEDED71D182A23CD2BAD90F160798A /* TencentOAuthObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8EBDF4699E6EEB5BC4915C2DDB786BA /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 694BAA49B93C63D4B5A766B122557603 /* NSString+Extensions.m */; };
+		AB4B725B4C5C799D71C4BCD3EBB3BE3F /* WBSDKBasicButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBA7C20E70FA923D9996F8DAEA6BEC2 /* WBSDKBasicButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABB87BFECB4DAE9E440953667F70D41B /* NSString+XWKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF3ED79310AEF6566425AF0DF7B7243 /* NSString+XWKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD1C5B78051EDAE0AB211E804ECE3F5D /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = D496D23637DBA484122BC92AD672C69D /* UIViewExt.m */; };
 		AE751391138E39C99F6E745327F5BB8F /* NSAttributedString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C407E8A124B28C1F34DAA9CE4D5FDA /* NSAttributedString+Extensions.m */; };
-		AF30C65E1CC9044F27A94DC0E32FDCE4 /* UIButton+PFVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C0238245219E88D4180B3A2D57BEE2 /* UIButton+PFVButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B6620BD40705D70D3A22FAC213073070 /* UIView+ACExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = A904E8D2A360E15E7FEB336805D2303F /* UIView+ACExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AFDC09749DDFB12DCB68D6DACDC47EB4 /* UIImage+Resolution.h in Headers */ = {isa = PBXBuildFile; fileRef = D6442150A40F8A862F0320CAB9D600EF /* UIImage+Resolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B770698923770E7771A0A2F251CD31C9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCB3CEA70A6C30F9C85124F3ACF2DB4 /* SystemConfiguration.framework */; };
+		B8BD47B3C254FA7BB8170EE07C079663 /* WechatAuthSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4532DDD7F71F63F77E68871486B51B /* WechatAuthSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8CF030C762FF7DBD5C86536A9E71A80 /* LCDStringContainsEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 20802948622B850300818673F4046D55 /* LCDStringContainsEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8F8AEE1155C517B6A416E632E9F15D4 /* WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 935DD477C6637B58BDA828EA0AD176D0 /* WeiboUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9B7A71CAFE72292AA0BB508B5C0849D /* Pods-PRCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D45E6EC08ED5EAB8A5CF033DAE142AB0 /* Pods-PRCategoryKit_Tests-dummy.m */; };
+		BC302554308EF69F75BB2774B33266D8 /* PFVLoginStatue.h in Headers */ = {isa = PBXBuildFile; fileRef = 5440EA26269575385D1DA05B026EFD2B /* PFVLoginStatue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC3E4B7F94AA817E9755DE7C3790638B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A413A5A752FA53A3EE166343AFC217B /* MBProgressHUD.m */; };
-		BD6DB42752C7E7491E067205E21DAF1B /* LLSimpleCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = C9525277EAA08B32DDC9CB863D4F2B3B /* LLSimpleCamera.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BDF982A8944B604B67C7C451A86DA3FF /* NSNumberFormatter+Currency.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2558067B592BAFF56780E01C866138 /* NSNumberFormatter+Currency.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BEBCC8B51B1196B76FA507A6BAFAE704 /* Pods-PRCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE164D7D00385F69F5805A87E2F7E499 /* Pods-PRCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF653E569A2D8E912D1E31D4845F65BF /* NSURL+PRUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = A72FF88083C02FC19A8AF953FB0E7097 /* NSURL+PRUrl.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C34B1135E6E2307F12B626D9AC215909 /* WXApi.h in Headers */ = {isa = PBXBuildFile; fileRef = F015EE271EBCBFA545F9068A8A4ED57F /* WXApi.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C47F732F07837B3109D1D484644A1F9C /* NewsShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A79CD47A1D55427ACDA5AC30994A42 /* NewsShareViewController.m */; };
-		C78C31AD862DFEAAF00C2697607259BF /* NSAttributedString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D960452B188E875E42BD9F21099F217 /* NSAttributedString+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C78F938BFDAF435C56342C965D32221A /* TencentApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F103D202A3545FB35C7B981B3A9D475 /* TencentApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5A564B8733F7EEE1F8D70D1307DF89E /* NSString+Currency.h in Headers */ = {isa = PBXBuildFile; fileRef = 18548F8BE28DF1BB4ACC5512607391FF /* NSString+Currency.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C671E4240E581D494964AF0F064DC615 /* WBHttpRequest+WeiboUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 73FD40F03FFEE72A168F473162A2EC80 /* WBHttpRequest+WeiboUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73D070E78B87518E7E500DBBF75C64A /* UIImage+Image.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF7D022EC6E11706CFA8ABCB2F35003 /* UIImage+Image.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA657FB838A5F438372CBF4517AD4487 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 973860E7E1F1B4D5F322FCA400F7A7DA /* ViewUtils.m */; };
 		CB5E98DDD0BFCED9B26A67A41BA4F018 /* NSMutableDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D19F286667F035886522D4038D42BD /* NSMutableDictionary+URL.m */; };
-		CB7EF265660DE9B82E1453C2E6CEA42A /* UIDevice+UIDeviceCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = D0AAE5287D49AF0FB3901862963EA001 /* UIDevice+UIDeviceCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD091488A97923F7753A20B8DB5DDA7 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A80DEC5B9282384EAF16B42B135D927 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC60D825B68AD4BA57507EE6ABA57356 /* UIView+ACExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA2F22FDD09A0A6ECB0C77A0C87F5F3 /* UIView+ACExtension.m */; };
+		CDE1013DE6E7CD9159E349B60A9BAAFE /* XWAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DE2D870C1A3195E5ADA064BB95DB4ADB /* XWAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CED854BFCE0242DC791EE8E9B1D4E21D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 466FF11895498F46FCF9A291BBB23C9A /* ImageIO.framework */; };
-		CF21905AC6709908A5BE293CFF9FCFBD /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A80DEC5B9282384EAF16B42B135D927 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CF454BBBCB2450B1385635DFFFBC0DD7 /* QQApiInterfaceObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 01615A0F422EA6DF529CE31D950E8331 /* QQApiInterfaceObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D084A4365CFD742C3458A01E9B84A3AB /* UIButton+Touch.h in Headers */ = {isa = PBXBuildFile; fileRef = 872B8FBCC9451E292103FA9B645A53B1 /* UIButton+Touch.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D1AFB25E2F4D5A69445F7CAFF7CD4176 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E5FF8103015A860E1784E8815CDFB0 /* UIBarButtonItem+Item.m */; };
 		D28C286776CB3490E40749C38C5FCD8C /* LCDStringContainsEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F61F1CA6EC9F83BE99912D0B0673747 /* LCDStringContainsEmoji.m */; };
-		D35B04DF6C51ED2756DDBB47F1101E36 /* ViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1199011E2B997526E641CA800C4B82A2 /* ViewUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D2BCDE035A17D7D1943262B70EF9393E /* NSNumberFormatter+Currency.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D2558067B592BAFF56780E01C866138 /* NSNumberFormatter+Currency.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D490577639F1A381F296E208E94C9EA4 /* Pods-PRCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0E83B3E696B13803FCEE69E1BBE579 /* Pods-PRCategoryKit_Example-dummy.m */; };
-		D64DD5DB7B95FD7B86743D3BC8B84A90 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C576249C95D5E9222B8F31AC3A6B8600 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D8B4FF295FD3F240E4F9A21A736CB2AD /* PRCategoryKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8CF451E15CD45FA26E949E9E18BACFC /* PRCategoryKit.bundle */; };
-		DB43C5FC1BEA34B3C86CA22B50D5F9BA /* WeiboSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CCBABD4CEEB2F7025658CF9068BFAE8 /* WeiboSDK.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E0BF4438BF1F7AA894FA0B13AEFFE55A /* NSDate+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D2DEC7285A01A39D6ED9520D3BB0D59 /* NSDate+Helper.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2ADC16B05461494962FEFB6BA449D39 /* WBHttpRequest+WeiboToken.h in Headers */ = {isa = PBXBuildFile; fileRef = E3CF8CDCCC689BE5B961CDCDA0CE29C7 /* WBHttpRequest+WeiboToken.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E37F25BF2837EBD943EE8ACFA3521431 /* EmojiDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D191C6AD34A951E3915EBBD6F8292F /* EmojiDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E405968B6D49692F7A6D2B7C7767645D /* TencentMessageObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD60ED5C076D1A21AAA90B2176A628C /* TencentMessageObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D9D5E7BF0110F897317ADAE55AE1C0B3 /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 234B42388B6F436A1969C317CF3E21AF /* UIView+Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF4868449F12D00BAF4A092B588FD240 /* NSAttributedString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D960452B188E875E42BD9F21099F217 /* NSAttributedString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF8417066313CF29C45F4119288DB9E8 /* NSMutableDictionary+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = 13D8AF2E8A22755E143FF89BD7546C5E /* NSMutableDictionary+URL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E523363C8B5886C8F1F0B154E793F183 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B76378E5D487997F6F86DBB8591FF63 /* UIKit.framework */; };
+		E5526C76FF0E27F2202A062A1099721F /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C576249C95D5E9222B8F31AC3A6B8600 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5D774D7EF48E02CE25CEF208C4FF9FC /* Pods-PRCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FD69A7ADD657C3F1A7DB46E43D7B22E /* Pods-PRCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7DB80816C30B9CBE23592571C97F598 /* UIView+PFVViewUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED65B804C06790F40C2C3FA24CE3171 /* UIView+PFVViewUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8231A9E8EAFEAEFDB29872F0F1AF9D5 /* UIButton+PFVButton.h in Headers */ = {isa = PBXBuildFile; fileRef = B9C0238245219E88D4180B3A2D57BEE2 /* UIButton+PFVButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E91FB8565E3CB3A427F413033034ED62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F2F4993982F95B0805A764DC4877DE3 /* Foundation.framework */; };
-		EBD5E3712B1883206CAB43F87EC8C5CD /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB976022A9F62F306FDE466F3E3BABB /* NSString+MD5.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F0EF5864B3A6F1A9139F50B80FBC70F3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAE051E0EB15717D9B7E939DE46C6A3 /* AssetsLibrary.framework */; };
+		F17D7C2A9313538316AE7E1C0E1BDC27 /* NewsShareViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 174BE51A8F20EDCF6DF45D05136295A3 /* NewsShareViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1F443B88DD683C5A901353B77C548E9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BBC49523FF8FC049E2448A66880DDA6 /* CoreTelephony.framework */; };
-		F4055B861E08DB9E1D4D04ED94BC062E /* NSString+Check.h in Headers */ = {isa = PBXBuildFile; fileRef = 4995946E0D2CC73620E33DF63BF8E911 /* NSString+Check.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F4A1F4A71C02355E18B9A5A0EB93FF76 /* UIImage+Resolution.h in Headers */ = {isa = PBXBuildFile; fileRef = D6442150A40F8A862F0320CAB9D600EF /* UIImage+Resolution.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F4B1388455FAA4337235F4DF6A77AD90 /* CALayer+LayerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8625FD6C5725771E539ED816BAEC3B8F /* CALayer+LayerColor.m */; };
 		F4F4F90E74C3A860D794963C81647464 /* PFVLoginStatue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBBB2074A5FA78304DF747F5E2EBE08 /* PFVLoginStatue.m */; };
-		F9FA9E0282124895153B825DBB8B830D /* UIView+Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = 234B42388B6F436A1969C317CF3E21AF /* UIView+Frame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FBAAB4A8D371687A386896678D226AE9 /* QQApiInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5854053FA826F66D75BDB00227A82F /* QQApiInterface.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8F65A5276CB12053C7A90DBD611E923 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C0C1EBDF59B85707000CE309D8156DC /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -763,80 +763,80 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D1D47FDA6799FB260AAF13F11C3A2B /* CALayer+LayerColor.h in Headers */,
-				E37F25BF2837EBD943EE8ACFA3521431 /* EmojiDelegate.h in Headers */,
+				25977ED4C24DF064DF2F41D8454CFB24 /* CALayer+LayerColor.h in Headers */,
+				00A0B418DB601DD09559593FCA983420 /* EmojiDelegate.h in Headers */,
 				4B8471900A918AACF82364D4D1A64D25 /* Header.h in Headers */,
-				676F0C66DE62E6BEF88773FCC231B7C5 /* JKCountDownButton.h in Headers */,
-				17FB7F80ABA10C842BC7F46970309D8A /* LCDStringContainsEmoji.h in Headers */,
-				BD6DB42752C7E7491E067205E21DAF1B /* LLSimpleCamera.h in Headers */,
-				CF21905AC6709908A5BE293CFF9FCFBD /* MBProgressHUD.h in Headers */,
-				19393DECC88B830CA5105FB0C6EF1807 /* NewsShareViewController.h in Headers */,
-				8B7FA32681518BFF487525329F132C35 /* NSArray+Sort.h in Headers */,
-				C78C31AD862DFEAAF00C2697607259BF /* NSAttributedString+Extensions.h in Headers */,
-				7F1554E732CE41734E4C16E809906DDF /* NSCalendar+PRCalender.h in Headers */,
-				6197223ED4724031011CE815B37D2E73 /* NSDate+Extensions.h in Headers */,
-				E0BF4438BF1F7AA894FA0B13AEFFE55A /* NSDate+Helper.h in Headers */,
-				14538BC2158FAE482F6001CB47597888 /* NSMutableDictionary+URL.h in Headers */,
-				BDF982A8944B604B67C7C451A86DA3FF /* NSNumberFormatter+Currency.h in Headers */,
-				F4055B861E08DB9E1D4D04ED94BC062E /* NSString+Check.h in Headers */,
-				77BAFAD32E5259C90DA237BC46FED0C3 /* NSString+Currency.h in Headers */,
-				5DF1254B90C9C1381118D097D8F1802D /* NSString+Emoji.h in Headers */,
-				D64DD5DB7B95FD7B86743D3BC8B84A90 /* NSString+Extensions.h in Headers */,
-				EBD5E3712B1883206CAB43F87EC8C5CD /* NSString+MD5.h in Headers */,
-				757E646A83B82A4804D9BC933F1D79F0 /* NSString+XWKit.h in Headers */,
-				BF653E569A2D8E912D1E31D4845F65BF /* NSURL+PRUrl.h in Headers */,
-				64D64495C02F8E3A737B575A4EEA2967 /* PFPageJumpTool.h in Headers */,
-				A2180E4ABAD14DDD629133199CDB7240 /* PFVLoginStatue.h in Headers */,
+				7D555B90CB02B628F263D0BBA8D9A665 /* JKCountDownButton.h in Headers */,
+				B8CF030C762FF7DBD5C86536A9E71A80 /* LCDStringContainsEmoji.h in Headers */,
+				48B915BCE13E68F407AEA756EB78FEA1 /* LLSimpleCamera.h in Headers */,
+				CBD091488A97923F7753A20B8DB5DDA7 /* MBProgressHUD.h in Headers */,
+				F17D7C2A9313538316AE7E1C0E1BDC27 /* NewsShareViewController.h in Headers */,
+				A528457724619E479FCED46271A41C7D /* NSArray+Sort.h in Headers */,
+				DF4868449F12D00BAF4A092B588FD240 /* NSAttributedString+Extensions.h in Headers */,
+				044D05EABCF4DCB6EA59205971568476 /* NSCalendar+PRCalender.h in Headers */,
+				F8F65A5276CB12053C7A90DBD611E923 /* NSDate+Extensions.h in Headers */,
+				07679DD6CB4649E3EAEDAF2AB80DEFE0 /* NSDate+Helper.h in Headers */,
+				DF8417066313CF29C45F4119288DB9E8 /* NSMutableDictionary+URL.h in Headers */,
+				D2BCDE035A17D7D1943262B70EF9393E /* NSNumberFormatter+Currency.h in Headers */,
+				95D710E507A4A5E498FEE7F730C394D0 /* NSString+Check.h in Headers */,
+				C5A564B8733F7EEE1F8D70D1307DF89E /* NSString+Currency.h in Headers */,
+				5F07E85933F79DD0EDD35BA06C64A19A /* NSString+Emoji.h in Headers */,
+				E5526C76FF0E27F2202A062A1099721F /* NSString+Extensions.h in Headers */,
+				A4A5DEF2075A10C32CF0DCE26DE9FEBE /* NSString+MD5.h in Headers */,
+				ABB87BFECB4DAE9E440953667F70D41B /* NSString+XWKit.h in Headers */,
+				8426D664DF204769A3744967B152CBB4 /* NSURL+PRUrl.h in Headers */,
+				01818273555E483688A01667ED0CC71F /* PFPageJumpTool.h in Headers */,
+				BC302554308EF69F75BB2774B33266D8 /* PFVLoginStatue.h in Headers */,
 				71DE74B0BA044E7D3784D273B647AC16 /* PRCategoryKit-umbrella.h in Headers */,
-				FBAAB4A8D371687A386896678D226AE9 /* QQApiInterface.h in Headers */,
-				CF454BBBCB2450B1385635DFFFBC0DD7 /* QQApiInterfaceObject.h in Headers */,
-				639F14131A7DD8AC38F6B66EA117822E /* sdkdef.h in Headers */,
-				9DDFF7FBAA7A97A35BEAE3CA4433C899 /* SSKeychain.h in Headers */,
-				C78F938BFDAF435C56342C965D32221A /* TencentApiInterface.h in Headers */,
-				E405968B6D49692F7A6D2B7C7767645D /* TencentMessageObject.h in Headers */,
-				1062E889F3A53DD6DCE2A369066CD57A /* TencentOAuth.h in Headers */,
-				6F25A5462DC835B6ECD30B7B1901FE6E /* TencentOAuthObject.h in Headers */,
-				56D97D33BAC87A887D7B7C498FD5ED19 /* UIBarButtonItem+Item.h in Headers */,
-				30B652076A4148F60FC7A25F042C5EC1 /* UIButton+EdgeInsets.h in Headers */,
-				AF30C65E1CC9044F27A94DC0E32FDCE4 /* UIButton+PFVButton.h in Headers */,
-				D084A4365CFD742C3458A01E9B84A3AB /* UIButton+Touch.h in Headers */,
-				626CA61E456FFDBC5E29901E17945DBA /* UIColor+HexCode.h in Headers */,
-				CB7EF265660DE9B82E1453C2E6CEA42A /* UIDevice+UIDeviceCategory.h in Headers */,
-				6CA277B339E83453A63D50AFD8CE015E /* UIFont+PFVCommon.h in Headers */,
-				A49F9ED393A1C79227F5BE8CE430A568 /* UIImage+Crop.h in Headers */,
-				8100BCB493F4E4642CC491043F10A204 /* UIImage+FixOrientation.h in Headers */,
-				2CD977B85065661A37C2A63E6D1DCA0C /* UIImage+Image.h in Headers */,
-				929496BA5E82908657A95BD6885717A4 /* UIImage+Resize.h in Headers */,
-				F4A1F4A71C02355E18B9A5A0EB93FF76 /* UIImage+Resolution.h in Headers */,
-				47AEE1D587299DC628579726D4A99225 /* UILabel+PFVAlignment.h in Headers */,
-				17DD0EDA73709F3D47A02FF1D6746752 /* UISearchBar+JCSearchBarPlaceholder.h in Headers */,
-				328B3B9E53C16D95FAF94AA6BA2A4D6A /* UITextField+BXExtension.h in Headers */,
-				94BE8157A1690977174F39F7C4F2DCAB /* UITextField+ExtentRange.h in Headers */,
-				0E5E4583665BDBFFB288EE2DA7DE993A /* UITextView+PlaceHolder.h in Headers */,
-				B6620BD40705D70D3A22FAC213073070 /* UIView+ACExtension.h in Headers */,
-				0462BC15B489F3D32DA617F9B88C9A06 /* UIView+BXExtension.h in Headers */,
-				F9FA9E0282124895153B825DBB8B830D /* UIView+Frame.h in Headers */,
-				149B0673C8D0C3EE9FC4EBE9D5A64E87 /* UIView+PFVViewUtils.h in Headers */,
-				4BEF530069FA20C6ABB94F40B7977292 /* UIViewController+Utils.h in Headers */,
-				467F0865C031EBD548F663B89BABA9CB /* UIViewExt.h in Headers */,
-				598A28E676C8C227672E51B219710AB7 /* Utils.h in Headers */,
-				D35B04DF6C51ED2756DDBB47F1101E36 /* ViewUtils.h in Headers */,
-				07A19BCFA7656208C3E2A1815D385CFD /* WBHttpRequest+WeiboGame.h in Headers */,
-				218FB7E77D4BE662F10CF20AEFF122D5 /* WBHttpRequest+WeiboShare.h in Headers */,
-				E2ADC16B05461494962FEFB6BA449D39 /* WBHttpRequest+WeiboToken.h in Headers */,
-				3CEF6E33E3CD8FF7D7A335063272F3FB /* WBHttpRequest+WeiboUser.h in Headers */,
-				5C4104E814F77054DD8E85E80A59A5C5 /* WBHttpRequest.h in Headers */,
-				84A439086B8A9101AB4EB08BF54DA8D2 /* WBSDKBasicButton.h in Headers */,
-				12B89B6A2C8F8EE67FBCB231B22F19B9 /* WBSDKCommentButton.h in Headers */,
-				A0CA504A81468F544823828EAC6EF149 /* WBSDKRelationshipButton.h in Headers */,
-				81BAC2A1DD2C137DCD8197E0EFAACE4C /* WechatAuthSDK.h in Headers */,
-				1CEF6AE454AE80FC6B93EF70CAB01EED /* WeiboSDK+Statistics.h in Headers */,
-				DB43C5FC1BEA34B3C86CA22B50D5F9BA /* WeiboSDK.h in Headers */,
-				779BA435B4A9A29C8218DF4CE42CC489 /* WeiboUser.h in Headers */,
-				C34B1135E6E2307F12B626D9AC215909 /* WXApi.h in Headers */,
-				681C8282DA8D911ACA8D031BEF030D7E /* WXApiObject.h in Headers */,
-				2807AECD103F8BDF3B1747043B4D2318 /* XWAlertViewController.h in Headers */,
-				2EF7D3B1C93CA19DD529D9275DB82970 /* XWMatching.h in Headers */,
+				586A5491CA0AF690BF010C8B02815599 /* QQApiInterface.h in Headers */,
+				4993E0DE8A30E7CA1E71D3324A1AAC0A /* QQApiInterfaceObject.h in Headers */,
+				68C293C49E7765540C326FA4F8A005D9 /* sdkdef.h in Headers */,
+				2BB684F1F9E90A333279AFE29329CB83 /* SSKeychain.h in Headers */,
+				8EE0EE3FDBE275D355A4E16AB48C294F /* TencentApiInterface.h in Headers */,
+				0C03F515623EFCD13FF31A17DFA6DBB4 /* TencentMessageObject.h in Headers */,
+				33DFF7E49F8421C9543E0F8F34EEC75D /* TencentOAuth.h in Headers */,
+				A6ED8DCDCCA7E1884E2F143CB62FE425 /* TencentOAuthObject.h in Headers */,
+				0EF58B52530A2B98288E55533B4DF186 /* UIBarButtonItem+Item.h in Headers */,
+				87AAAB272E2A4BF0148369548E1D9C68 /* UIButton+EdgeInsets.h in Headers */,
+				E8231A9E8EAFEAEFDB29872F0F1AF9D5 /* UIButton+PFVButton.h in Headers */,
+				3F971F103BBCE9C5C67ACC001B36D19B /* UIButton+Touch.h in Headers */,
+				870A752DB14C27A7A650EBF63E94F1AF /* UIColor+HexCode.h in Headers */,
+				3F38E4121CB77B737CEF5A72F19CE547 /* UIDevice+UIDeviceCategory.h in Headers */,
+				5C7749F041970295A1145EC1C7E6E994 /* UIFont+PFVCommon.h in Headers */,
+				699FE38387D79E0F115B7451827B0C4F /* UIImage+Crop.h in Headers */,
+				61E70D148CF8518167F774EB0E53584D /* UIImage+FixOrientation.h in Headers */,
+				C73D070E78B87518E7E500DBBF75C64A /* UIImage+Image.h in Headers */,
+				3EC3CB0DE1A2CBD97C250C8080D6E7E6 /* UIImage+Resize.h in Headers */,
+				AFDC09749DDFB12DCB68D6DACDC47EB4 /* UIImage+Resolution.h in Headers */,
+				0AD12192D0B1410D3C6F51B0C63C45A3 /* UILabel+PFVAlignment.h in Headers */,
+				737FA5B2F75C34353485C219CE768E02 /* UISearchBar+JCSearchBarPlaceholder.h in Headers */,
+				2D223DC3648253A60417B9912682D4E3 /* UITextField+BXExtension.h in Headers */,
+				0AC9D027489345E085FD6D28146FFC4F /* UITextField+ExtentRange.h in Headers */,
+				081ABD2DDE2C2A65C629557C56DB2932 /* UITextView+PlaceHolder.h in Headers */,
+				6D686C4ADA1F68EF3C3EAB0CC1EE5902 /* UIView+ACExtension.h in Headers */,
+				9E03C2BFB429DF70D9AD960B1608EB37 /* UIView+BXExtension.h in Headers */,
+				D9D5E7BF0110F897317ADAE55AE1C0B3 /* UIView+Frame.h in Headers */,
+				E7DB80816C30B9CBE23592571C97F598 /* UIView+PFVViewUtils.h in Headers */,
+				10B52BB8AA880AFAF4F0384276647D23 /* UIViewController+Utils.h in Headers */,
+				6D2D145E7CC9A2354EAA43DAED5AECA3 /* UIViewExt.h in Headers */,
+				7848D8E9C37F3152E4B5E0E326F9A3F2 /* Utils.h in Headers */,
+				9F8B6CD2F35B0BF1204F052F19907902 /* ViewUtils.h in Headers */,
+				98E58CFE48057F9D4864A7AED1BE4164 /* WBHttpRequest+WeiboGame.h in Headers */,
+				472A7B82A09A4ACD6776F8FBE51FDEC6 /* WBHttpRequest+WeiboShare.h in Headers */,
+				56F094BEE791621030A5765604235864 /* WBHttpRequest+WeiboToken.h in Headers */,
+				C671E4240E581D494964AF0F064DC615 /* WBHttpRequest+WeiboUser.h in Headers */,
+				2960F57628DFC37BBCDA7573C180741C /* WBHttpRequest.h in Headers */,
+				AB4B725B4C5C799D71C4BCD3EBB3BE3F /* WBSDKBasicButton.h in Headers */,
+				6D74C2F69C02939EC562F70742419C19 /* WBSDKCommentButton.h in Headers */,
+				219A36BED5F43916D76726C30D8E8688 /* WBSDKRelationshipButton.h in Headers */,
+				B8BD47B3C254FA7BB8170EE07C079663 /* WechatAuthSDK.h in Headers */,
+				60223431E0249ABC530D50885840263C /* WeiboSDK+Statistics.h in Headers */,
+				98266FE42CBC9C8F897CC933B7ED01ED /* WeiboSDK.h in Headers */,
+				B8F8AEE1155C517B6A416E632E9F15D4 /* WeiboUser.h in Headers */,
+				85A184C1DD177CEA66CC572E8F9DE3ED /* WXApi.h in Headers */,
+				94565CA2A09B3C9F9B87461248867B28 /* WXApiObject.h in Headers */,
+				CDE1013DE6E7CD9159E349B60A9BAAFE /* XWAlertViewController.h in Headers */,
+				32321D05EB1258B2EFAFD46FEA6FFE0D /* XWMatching.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
