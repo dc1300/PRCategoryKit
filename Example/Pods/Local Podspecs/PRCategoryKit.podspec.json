@@ -1,6 +1,6 @@
 {
   "name": "PRCategoryKit",
-  "version": "88",
+  "version": "89",
   "summary": "A short description of PRCategoryKit.",
   "description": "通用类",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "88"
+    "tag": "89"
   },
   "platforms": {
     "ios": "8.0"
@@ -49,7 +49,9 @@
   ],
   "resource_bundles": {
     "PRCategoryKit": [
-      "PRCategoryKit/Classes/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+      "PRCategoryKit/Classes/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+    ],
+    "WeiboSDKBundles": [
       "PRCategoryKit/Classes/WeiboSDK/WeiboSDK.bundle"
     ]
   },
