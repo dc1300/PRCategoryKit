@@ -1,7 +1,9 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/PRCategoryKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../PRCategoryKit/Classes/QQSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Public"
-OTHER_LDFLAGS = -framework "AVFoundation" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "UIKit"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../PRCategoryKit/Classes/WeiboSDK" "${PODS_ROOT}/../../PRCategoryKit/Classes/WeChatSDK"
+OTHER_LDFLAGS = -l"WeChatSDK" -l"WeiboSDK" -l"iconv" -l"sqlite3" -l"stdc++" -l"z" -framework "AssetsLibrary" -framework "CFNetwork" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "Foundation" -framework "ImageIO" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "TencentOpenAPI" -framework "UIKit"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

@@ -7,6 +7,7 @@
 //
 
 #import "PRViewController.h"
+#import <TencentOpenAPI/QQApiInterface.h>
 
 @interface PRViewController ()
 

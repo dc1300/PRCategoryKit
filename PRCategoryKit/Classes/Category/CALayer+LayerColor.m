@@ -7,6 +7,7 @@
 //
 
 #import "CALayer+LayerColor.h"
+#import <TencentOpenAPI/QQApiInterface.h>
 
 @implementation CALayer (LayerColor)
 

@@ -6,8 +6,9 @@
 //  Copyright (c) 2018 dc1300. All rights reserved.
 //
 
-#import "PRAppDelegate.h"
 
+#import "PRAppDelegate.h"
+//#import <TencentOpenAPI/QQApiInterface.h>
 @implementation PRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

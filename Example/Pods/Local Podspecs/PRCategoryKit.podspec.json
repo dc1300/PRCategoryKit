@@ -1,8 +1,8 @@
 {
   "name": "PRCategoryKit",
-  "version": "85",
+  "version": "86",
   "summary": "A short description of PRCategoryKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "通用类",
   "homepage": "https://github.com/dc1300/PRCategoryKit",
   "license": {
     "type": "MIT",
@@ -13,114 +13,44 @@
   },
   "source": {
     "git": "https://github.com/dc1300/PRCategoryKit.git",
-    "tag": "85"
+    "tag": "86"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "PRCategoryKit/Classes/Header.h",
-  "public_header_files": "PRCategoryKit/Classes/Header.h",
-  "frameworks": [
-    "UIKit",
-    "Foundation"
+  "requires_arc": true,
+  "ios": {
+    "source_files": "PRCategoryKit/Classes/**/*.{h,m}",
+    "public_header_files": "PRCategoryKit/Classes/*.h",
+    "frameworks": [
+      "UIKit",
+      "QuartzCore",
+      "ImageIO",
+      "SystemConfiguration",
+      "Security",
+      "CoreTelephony",
+      "CoreText",
+      "CoreGraphics",
+      "Foundation",
+      "AssetsLibrary",
+      "CFNetwork"
+    ],
+    "vendored_frameworks": "PRCategoryKit/Classes/QQSDK/TencentOpenAPI.framework",
+    "vendored_libraries": [
+      "PRCategoryKit/Classes/WeiboSDK/libWeiboSDK.a",
+      "PRCategoryKit/Classes/WeChatSDK/libWeChatSDK.a"
+    ]
+  },
+  "libraries": [
+    "iconv",
+    "sqlite3",
+    "stdc++",
+    "z"
   ],
-  "subspecs": [
-    {
-      "name": "Category",
-      "source_files": [
-        "PRCategoryKit/Classes/Category/*",
-        "PRCategoryKit/Classes/Header.h"
-      ],
-      "public_header_files": [
-        "PRCategoryKit/Classes/Category/*.h",
-        "PRCategoryKit/Classes/Header.h"
-      ],
-      "frameworks": [
-        "UIKit",
-        "Foundation",
-        "QuartzCore",
-        "CoreText"
-      ]
-    },
-    {
-      "name": "SSKeychain",
-      "source_files": "PRCategoryKit/Classes/SSKeychain/*",
-      "frameworks": "Security"
-    },
-    {
-      "name": "Tool",
-      "dependencies": {
-        "PRCategoryKit/Category": [
-
-        ]
-      },
-      "source_files": "PRCategoryKit/Classes/Tool/*.{h,m}",
-      "public_header_files": "PRCategoryKit/Classes/Tool/*.h",
-      "frameworks": [
-        "UIKit",
-        "Foundation",
-        "ImageIO",
-        "AVFoundation",
-        "QuartzCore"
-      ],
-      "subspecs": [
-        {
-          "name": "Appliance",
-          "dependencies": {
-            "PRCategoryKit/Category": [
-
-            ],
-            "PRCategoryKit/Tool/View": [
-
-            ]
-          },
-          "source_files": "PRCategoryKit/Classes/Tool/Appliance/*.{h,m}",
-          "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/*.h",
-          "frameworks": [
-            "UIKit",
-            "Foundation",
-            "ImageIO",
-            "AVFoundation",
-            "QuartzCore"
-          ],
-          "subspecs": [
-            {
-              "name": "NoticeCameraCategory",
-              "dependencies": {
-                "PRCategoryKit/Category": [
-
-                ]
-              },
-              "source_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.{h,m}",
-              "public_header_files": "PRCategoryKit/Classes/Tool/Appliance/NoticeCameraCategory/*.h",
-              "frameworks": [
-                "UIKit",
-                "Foundation",
-                "ImageIO",
-                "AVFoundation",
-                "QuartzCore"
-              ]
-            }
-          ]
-        },
-        {
-          "name": "View",
-          "dependencies": {
-            "PRCategoryKit/Category": [
-
-            ]
-          },
-          "source_files": "PRCategoryKit/Classes/Tool/View/*.{h,m}",
-          "public_header_files": "PRCategoryKit/Classes/Tool/View/*.h",
-          "frameworks": [
-            "UIKit",
-            "Foundation",
-            "ImageIO",
-            "AVFoundation",
-            "QuartzCore"
-          ]
-        }
-      ]
-    }
-  ]
+  "resource_bundles": {
+    "PRCategoryKit": [
+      "PRCategoryKit/Classes/QQSDK/TencentOpenApi_IOS_Bundle.bundle"
+    ]
+  },
+  "static_framework": true
 }
